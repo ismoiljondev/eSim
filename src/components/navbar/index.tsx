@@ -12,6 +12,8 @@ import {
 } from "@/components/ui/resizable-navbar";
 import { useState } from "react";
 import { ModeToggle } from "../mode-toggle";
+import { useTranslations } from "next-intl";
+import { LanguageSwitcher } from "../langugage-swticher";
 
 export function NavbarDemo() {
     const navItems = [
@@ -30,7 +32,7 @@ export function NavbarDemo() {
     ];
 
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
+    const t = useTranslations()
     return (
         <div className="relative w-full">
             <Navbar>
@@ -39,8 +41,10 @@ export function NavbarDemo() {
                     <NavbarLogo />
                     <NavItems items={navItems} />
                     <div className="flex items-center gap-4">
+
+                        <NavbarButton variant="secondary" className="p-0"><LanguageSwitcher /></NavbarButton>
                         <NavbarButton variant="secondary" className="p-0"><ModeToggle /></NavbarButton>
-                        <NavbarButton variant="secondary">Login</NavbarButton>
+                        <NavbarButton variant="secondary">{t("login")}</NavbarButton>
                         <NavbarButton variant="primary">Book a call</NavbarButton>
                     </div>
                 </NavBody>
