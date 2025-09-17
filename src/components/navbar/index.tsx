@@ -44,8 +44,7 @@ export function NavbarDemo() {
 
                         <NavbarButton variant="secondary" className="p-0"><LanguageSwitcher /></NavbarButton>
                         <NavbarButton variant="secondary" className="p-0"><ModeToggle /></NavbarButton>
-                        <NavbarButton variant="secondary">{t("login")}</NavbarButton>
-                        <NavbarButton variant="primary">Book a call</NavbarButton>
+                        <NavbarButton variant="primary">{t("login")}</NavbarButton>
                     </div>
                 </NavBody>
 
@@ -81,13 +80,6 @@ export function NavbarDemo() {
                                 className="w-full"
                             >
                                 Login
-                            </NavbarButton>
-                            <NavbarButton
-                                onClick={() => setIsMobileMenuOpen(false)}
-                                variant="primary"
-                                className="w-full"
-                            >
-                                Book a call
                             </NavbarButton>
                         </div>
                     </MobileNavMenu>
