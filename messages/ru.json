@@ -1,3 +1,10 @@
 {
-  "login": "Войти"
+  "login": "Войти",
+  "show_more": "Показать больше",
+  "travel_next": "Куда вы поедете дальше?",
+  "popular_destinations": "Ниже найдите популярные направления и выберите план для них",
+  "how_milliy_sim_works": "Как работает MilliySim?",
+  "milliy_sim_easy": "Мы сделали так, чтобы вам было легко подключиться в более чем 200 странах и регионах",
+  "why_milliy_sim": "Nega MilliySim?",
+  "why_milliy_sim_desc": "MilliySim — bu 200+ mamlakat va hududlarda doimo aloqada bo‘lishingizga imkon beruvchi global eSIM provayderi. Biz eSIM qo‘llab-quvvatlanadigan qurilmalaringiz uchun eng arzon va moslashuvchan internet, ovozli qo‘ng‘iroq va cheksiz tarif rejalarini taklif qilamiz."
 }

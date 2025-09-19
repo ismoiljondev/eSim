@@ -1,3 +1,10 @@
 {
-  "login": "Kirish"
+  "login": "Kirish",
+  "show_more": "Ko‘proq ko‘rsatish",
+  "travel_next": "Keyingi safaringiz qayerga?",
+  "popular_destinations": "Quyida mashhur yo‘nalishlarni toping va ular uchun reja tanlang",
+  "how_milliy_sim_works": "MilliySim qanday ishlaydi?",
+  "milliy_sim_easy": "Biz siz uchun 200+ mamlakat va hududlarda ulanishingizni osonlashtirdik",
+  "why_milliy_sim": "Nega MilliySim?",
+  "why_milliy_sim_desc": "MilliySim — bu 200+ mamlakat va hududlarda doimo aloqada bo‘lishingizga imkon beruvchi global eSIM provayderi. Biz eSIM qo‘llab-quvvatlanadigan qurilmalaringiz uchun eng arzon va moslashuvchan internet, ovozli qo‘ng‘iroq va cheksiz tarif rejalarini taklif qilamiz."
 }
