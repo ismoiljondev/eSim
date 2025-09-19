@@ -1,6 +1,7 @@
 import AboutWork from "@/components/about-work";
 import Countries from "@/components/countries";
 import { Showcase } from "@/components/showcase";
+import WhyUs from "@/components/why-us";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Showcase />
       <Countries />
       <AboutWork />
+      <WhyUs />
     </>
   );
 }
