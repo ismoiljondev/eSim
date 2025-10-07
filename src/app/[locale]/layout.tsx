@@ -6,6 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { routing } from "@/i18n/routing";
 import { notFound } from "next/navigation";
+import Footer from "@/components/footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -49,6 +50,7 @@ export default async function RootLayout({
           >
             <NavbarDemo />
             {children}
+            <Footer />
           </ThemeProvider></NextIntlClientProvider>
 
       </body>
