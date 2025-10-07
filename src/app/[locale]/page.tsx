@@ -9,7 +9,7 @@ export default function Home() {
       <Showcase />
       <Countries />
       <AboutWork />
-      <WhyUs />
+      {/* <WhyUs /> */}
     </>
   );
 }
