@@ -6,5 +6,29 @@
   "how_milliy_sim_works": "MilliySim qanday ishlaydi?",
   "milliy_sim_easy": "Biz siz uchun 200+ mamlakat va hududlarda ulanishingizni osonlashtirdik",
   "why_milliy_sim": "Nega MilliySim?",
-  "why_milliy_sim_desc": "MilliySim — bu 200+ mamlakat va hududlarda doimo aloqada bo‘lishingizga imkon beruvchi global eSIM provayderi. Biz eSIM qo‘llab-quvvatlanadigan qurilmalaringiz uchun eng arzon va moslashuvchan internet, ovozli qo‘ng‘iroq va cheksiz tarif rejalarini taklif qilamiz."
+  "why_milliy_sim_desc": "MilliySim — bu 200+ mamlakat va hududlarda doimo aloqada bo‘lishingizga imkon beruvchi global eSIM provayderi. Biz eSIM qo‘llab-quvvatlanadigan qurilmalaringiz uchun eng arzon va moslashuvchan internet, ovozli qo‘ng‘iroq va cheksiz tarif rejalarini taklif qilamiz.",
+  "about_us": {
+    "title": "MilliySim qanday ishlaydi?",
+    "intro": "Biz sizga 200 dan ortiq mamlakat va hududlarda ulanishni osonlashtirdik.",
+    "step1": {
+      "title": "eSIM’ni 1 daqiqada faollashtiring",
+      "desc": "QR-kodni skanerlang va salonga bormasdan ulanib oling. Tez, oddiy va xavfsiz."
+    },
+    "step2": {
+      "title": "Sayohat uchun tarif tanlang",
+      "desc": "Har bir mamlakat uchun to‘plamlar — 1 kundan 30 kungacha. Onlayn to‘lov qiling va darhol foydalaning."
+    },
+    "step3": {
+      "title": "Butun dunyoda ishlaydi",
+      "desc": "200 dan ortiq mamlakat va hududlar. Rouming yo‘q, qo‘shimcha sozlamalarsiz."
+    },
+    "step4": {
+      "title": "Telegram-bot orqali nazorat",
+      "desc": "Balansni tekshiring, internetni uzaytiring, to‘plamlar xarid qiling. Hammasi bir joyda."
+    },
+    "step5": {
+      "title": "24/7 qo‘llab-quvvatlash",
+      "desc": "Savol tug‘ilsa — botimiz va jamoamiz darhol yordam beradi. Rus, o‘zbek va ingliz tillarida."
+    }
+  }
 }

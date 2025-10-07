@@ -8,7 +8,7 @@ const Footer = () => {
     const t = useTranslations()
     return (
         <div className='border-2 py-8'>
-            <div className=' mx-auto w-4/5'>
+            <div className='mx-auto w-4/5'>
                 <div className='flex flex-col gap-3'>
                     <div className='flex justify-between border-b mb-5 pb-5'>
                         <div className='flex flex-col gap-2 items-center'>

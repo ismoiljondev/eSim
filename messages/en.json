@@ -6,5 +6,29 @@
   "how_milliy_sim_works": "How MilliySim Works?",
   "milliy_sim_easy": "We have made it easy for you to get connected in 200+ countries and regions",
   "why_milliy_sim": "Why MilliySim?",
-  "why_milliy_sim_desc": "MilliySim is a global eSIM provider that allows you to stay connected in 200+ countries and regions. We offer the most affordable and flexible data, voice and unlimited plans for your eSIM-enabled devices."
+  "why_milliy_sim_desc": "MilliySim is a global eSIM provider that allows you to stay connected in 200+ countries and regions. We offer the most affordable and flexible data, voice and unlimited plans for your eSIM-enabled devices.",
+  "about_us": {
+    "title": "How does MilliySim work?",
+    "intro": "We made it easy for you to connect in more than 200 countries and regions.",
+    "step1": {
+      "title": "Activate your eSIM in 1 minute",
+      "desc": "Scan the QR code and connect without visiting a store. Fast, simple, and secure."
+    },
+    "step2": {
+      "title": "Choose a travel plan",
+      "desc": "Packages for every country — from 1 day to 30 days. Pay online and use immediately."
+    },
+    "step3": {
+      "title": "Works worldwide",
+      "desc": "Available in 200+ countries and regions. No roaming, no extra settings needed."
+    },
+    "step4": {
+      "title": "Manage via Telegram bot",
+      "desc": "Check your balance, extend internet, and buy plans — all in one place."
+    },
+    "step5": {
+      "title": "24/7 Support",
+      "desc": "If you have any questions — our bot and team are here to help instantly. In Uzbek, Russian, and English."
+    }
+  }
 }
