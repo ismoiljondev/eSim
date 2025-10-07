@@ -1,5 +1,4 @@
 {
-  "login": "Login",
   "show_more": "Show more",
   "travel_next": "Where are you travelling next?",
   "popular_destinations": "Find below the popular destinations and pick a plan for it",
@@ -30,5 +29,20 @@
       "title": "24/7 Support",
       "desc": "If you have any questions — our bot and team are here to help instantly. In Uzbek, Russian, and English."
     }
+  },
+  "menu": {
+    "esim": "eSIM",
+    "help": "Help",
+    "partnership": "Partnership",
+    "about_us": "About us",
+    "login": "Login",
+    "contact": "Contact"
+  },
+  "showcase": {
+    "word1": "Stay",
+    "word2": "connected",
+    "word3": "anywhere",
+    "word4": "with",
+    "word5": "MilliySim."
   }
 }

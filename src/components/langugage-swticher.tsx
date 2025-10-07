@@ -8,11 +8,13 @@ import {
     SelectTrigger,
     SelectValue,
 } from "@/components/ui/select";
+import ReactCountryFlag from "react-country-flag";
+import { cn } from "@/lib/utils"; // optional if you use className merging (Tailwind helper)
 
 const languages = [
-    { code: "uz", label: "O‘zbekcha" },
-    { code: "ru", label: "Русский" },
-    { code: "en", label: "English" },
+    { code: "uz", countryCode: "UZ", label: "O‘zbekcha" },
+    { code: "ru", countryCode: "RU", label: "Русский" },
+    { code: "en", countryCode: "GB", label: "English" },
 ];
 
 export function LanguageSwitcher() {
@@ -25,15 +27,42 @@ export function LanguageSwitcher() {
         router.push(segments.join("/"));
     };
 
+    const currentLang = pathname.split("/")[1];
+    const currentLanguage = languages.find((l) => l.code === currentLang) || languages[0];
+
     return (
-        <Select onValueChange={handleChange} defaultValue={pathname.split("/")[1]}>
-            <SelectTrigger className="w-[180px]">
-                <SelectValue placeholder="Select a language" />
+        <Select onValueChange={handleChange} defaultValue={currentLang}>
+            <SelectTrigger className=" justify-center">
+                <SelectValue className="">
+                    <ReactCountryFlag
+                        countryCode={currentLanguage.countryCode}
+                        svg
+                        style={{
+                            width: "1.3em",
+                            height: "1.3em",
+                            borderRadius: "30%",
+                        }}
+                        title={currentLanguage.label}
+                    />
+                </SelectValue>
             </SelectTrigger>
+
             <SelectContent>
                 {languages.map((lang) => (
                     <SelectItem key={lang.code} value={lang.code}>
-                        {lang.label}
+                        <div className="flex items-center gap-2">
+                            <ReactCountryFlag
+                                countryCode={lang.countryCode}
+                                svg
+                                style={{
+                                    width: "1.3em",
+                                    height: "1.3em",
+                                    borderRadius: "10%",
+                                }}
+                                title={lang.label}
+                            />
+                            <span>{lang.label}</span>
+                        </div>
                     </SelectItem>
                 ))}
             </SelectContent>

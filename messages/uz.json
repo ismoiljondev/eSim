@@ -1,5 +1,13 @@
 {
-  "login": "Kirish",
+  "menu": {
+    "esim": "eSIM",
+    "help": "Yordam",
+    "partnership": "Hamkorlik",
+    "about_us": "Biz haqimizda",
+    "login": "Kirish",
+    "contact": "Aloqa"
+  },
+
   "show_more": "Ko‘proq ko‘rsatish",
   "travel_next": "Keyingi safaringiz qayerga?",
   "popular_destinations": "Quyida mashhur yo‘nalishlarni toping va ular uchun reja tanlang",
@@ -30,5 +38,12 @@
       "title": "24/7 qo‘llab-quvvatlash",
       "desc": "Savol tug‘ilsa — botimiz va jamoamiz darhol yordam beradi. Rus, o‘zbek va ingliz tillarida."
     }
+  },
+  "showcase": {
+    "word1": "Dunyoning",
+    "word2": "istalgan",
+    "word3": "joyida",
+    "word4": "aloqada",
+    "word5": "MilliySim"
   }
 }

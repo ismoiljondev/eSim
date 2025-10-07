@@ -7,6 +7,7 @@ import {
     useScroll,
     useMotionValueEvent,
 } from "motion/react";
+import { useTranslations } from "next-intl";
 
 import React, { useRef, useState } from "react";
 
@@ -115,7 +116,7 @@ export const NavBody = ({ children, className, visible }: NavBodyProps) => {
 
 export const NavItems = ({ items, className, onItemClick }: NavItemsProps) => {
     const [hovered, setHovered] = useState<number | null>(null);
-
+    const t = useTranslations("menu")
     return (
         <motion.div
             onMouseLeave={() => setHovered(null)}
@@ -138,7 +139,7 @@ export const NavItems = ({ items, className, onItemClick }: NavItemsProps) => {
                             className="absolute inset-0 h-full w-full rounded-full bg-gray-100 dark:bg-neutral-800"
                         />
                     )}
-                    <span className="relative z-20">{item.name}</span>
+                    <span className="relative z-20">{t(item.name)}</span>
                 </a>
             ))}
         </motion.div>
@@ -242,7 +243,7 @@ export const NavbarLogo = () => {
                 width={30}
                 height={30}
             />
-            <span className="font-medium text-black dark:text-white">Startup</span>
+            <span className="font-medium text-black dark:text-white">MilliySim</span>
         </a>
     );
 };

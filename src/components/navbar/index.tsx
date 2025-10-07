@@ -18,21 +18,29 @@ import { LanguageSwitcher } from "../langugage-swticher";
 export function NavbarDemo() {
     const navItems = [
         {
-            name: "Features",
-            link: "#features",
+            name: "esim",
+            link: "#esim",
         },
         {
-            name: "Pricing",
-            link: "#pricing",
+            name: "help",
+            link: "#help",
         },
         {
-            name: "Contact",
+            name: "partnership",
+            link: "#partnership",
+        },
+        {
+            name: "about_us",
+            link: "#about_us",
+        },
+        {
+            name: "contact",
             link: "#contact",
         },
     ];
 
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-    const t = useTranslations()
+    const t = useTranslations("menu")
     return (
         <div className="fixed top-10 z-100 w-full">
             <Navbar>
