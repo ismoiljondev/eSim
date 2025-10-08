@@ -43,6 +43,18 @@
     "word2": "connected",
     "word3": "anywhere",
     "word4": "with",
-    "word5": "MilliySim."
+    "word5": "MilliySim.",
+    "pricing": "200+ countries and regions starting from only $2"
+  },
+  "countries": {
+    "SA": "Saudi Arabia",
+    "CN": "China",
+    "TR": "Turkey",
+    "RU": "Russia",
+    "EG": "Egypt",
+    "VN": "Vietnam",
+    "TH": "Thailand",
+    "AE": "United Arab Emirates",
+    "MY": "Malaysia"
   }
 }

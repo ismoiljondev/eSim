@@ -4,30 +4,42 @@ import { HoverEffect } from '../ui/card-hover-effect'
 import { Button } from '../ui/button'
 import { useTranslations } from 'next-intl'
 import Title from '../title'
+
 const CountriesData = [
     {
-        title: "japan",
-        imgUrl: japan,
+        title: "SA",
         link: "#"
     },
     {
-        title: "japan",
-        imgUrl: japan,
+        title: "CN",
         link: "#"
     },
     {
-        title: "japan",
-        imgUrl: japan,
+        title: "TR",
         link: "#"
     },
     {
-        title: "japan",
-        imgUrl: japan,
+        title: "RU",
         link: "#"
     },
     {
-        title: "japan",
-        imgUrl: japan,
+        title: "EG",
+        link: "#"
+    },
+    {
+        title: "VN",
+        link: "#"
+    },
+    {
+        title: "TH",
+        link: "#"
+    },
+    {
+        title: "AE",
+        link: "#"
+    },
+    {
+        title: "MY",
         link: "#"
     },
 ]
@@ -36,8 +48,11 @@ const Countries = () => {
     const t = useTranslations()
     return (
         <div className='bg-white dark:bg-black'>
-            <HoverEffect items={CountriesData} />
-            <Button className='w-fit mx-auto'>{t("show_more")}</Button>
+            <div className='flex flex-col container mx-auto'>
+                <Title title='travel_next' desc='popular_destinations' />
+                <HoverEffect items={CountriesData} />
+                <Button className='w-fit mx-auto'>{t("show_more")}</Button>
+            </div>
         </div>
     )
 }

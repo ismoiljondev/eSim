@@ -44,6 +44,18 @@
     "word2": "istalgan",
     "word3": "joyida",
     "word4": "aloqada",
-    "word5": "MilliySim"
+    "word5": "MilliySim",
+    "pricing": "200+ mamlakat va hududlarda, atigi $2 dan boshlab"
+  },
+  "countries": {
+    "SA": "Saudiya Arabistoni",
+    "CN": "Xitoy",
+    "TR": "Turkiya",
+    "RU": "Rossiya",
+    "EG": "Misr",
+    "VN": "Vetnam",
+    "TH": "Tailand",
+    "AE": "Birlashgan Arab Amirliklari",
+    "MY": "Malaziya"
   }
 }

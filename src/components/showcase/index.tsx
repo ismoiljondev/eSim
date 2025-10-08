@@ -27,6 +27,7 @@ export function Showcase() {
                     Signup
                 </button>
             </div> */}
+            <p className="text-black dark:text-white text-2xl font-medium max-md:text-xl max-sm:text-lg">{t("pricing")}</p>
         </div>
     );
 }

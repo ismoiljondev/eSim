@@ -1,9 +1,11 @@
 "use client"
 import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "motion/react";
+import { useTranslations } from "next-intl";
 import Image, { StaticImageData } from "next/image";
 
 import { useState } from "react";
+import ReactCountryFlag from "react-country-flag";
 
 export const HoverEffect = ({
     items,
@@ -12,12 +14,11 @@ export const HoverEffect = ({
     items: {
         title: string;
         link: string;
-        imgUrl: StaticImageData
     }[];
     className?: string;
 }) => {
     let [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
-
+    const t = useTranslations("countries")
     return (
         <div
             className={cn(
@@ -51,8 +52,13 @@ export const HoverEffect = ({
                         )}
                     </AnimatePresence>
                     <Card>
-                        <Image src={item?.imgUrl} alt={item?.title} width={40} height={40} />
-                        <CardTitle>{item.title}</CardTitle>
+                        <ReactCountryFlag
+                            countryCode={item.title}
+                            svg
+                            style={{ width: "2em", height: "2em" }}
+                            aria-label={item.title}
+                        />
+                        <CardTitle>{t(item.title)}</CardTitle>
                     </Card>
                 </a>
             ))}

@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Showcase />
-      <Plans />
+      <Countries />
       <AboutWork />
       {/* <WhyUs /> */}
     </>
