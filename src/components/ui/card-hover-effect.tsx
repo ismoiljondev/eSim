@@ -22,7 +22,7 @@ export const HoverEffect = ({
     return (
         <div
             className={cn(
-                "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  py-10",
+                "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  py-10 max-md:py-3",
                 className
             )}
         >
@@ -30,14 +30,14 @@ export const HoverEffect = ({
                 <a
                     href={item?.link}
                     key={item?.link}
-                    className="relative group  block p-2 h-full w-full"
+                    className="relative group block p-2 h-full w-full max-sm:p-1"
                     onMouseEnter={() => setHoveredIndex(idx)}
                     onMouseLeave={() => setHoveredIndex(null)}
                 >
                     <AnimatePresence>
                         {hoveredIndex === idx && (
                             <motion.span
-                                className="absolute inset-0 h-full w-full bg-neutral-200 dark:bg-slate-800/[0.8] block  rounded-3xl"
+                                className="absolute inset-0 h-full w-full bg-neutral-200 dark:bg-slate-800/[0.8] block  rounded-3xl max-lg:rounded-2xl max-md:rounded-xl"
                                 layoutId="hoverBackground"
                                 initial={{ opacity: 0 }}
                                 animate={{
@@ -51,7 +51,7 @@ export const HoverEffect = ({
                             />
                         )}
                     </AnimatePresence>
-                    <Card>
+                    <Card className="rounded-3xl max-lg:rounded-2xl max-md:rounded-xl">
                         <ReactCountryFlag
                             countryCode={item.title}
                             svg

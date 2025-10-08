@@ -14,7 +14,7 @@ export function Showcase() {
         },
     ];
     return (
-        <div className="flex flex-col items-center justify-center h-[40rem]  ">
+        <div className="flex flex-col gap-3 items-center justify-center h-[40rem] max-lg:h-[30rem] max-md:h-[20rem] max-sm:h-[15rem] max-sm:mt-10 max-sm:gap-1">
             <p className="text-neutral-600 dark:text-neutral-200 text-xs sm:text-base  ">
                 {t("freedom")}
             </p>
