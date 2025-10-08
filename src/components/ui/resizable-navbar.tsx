@@ -7,7 +7,9 @@ import {
     useScroll,
     useMotionValueEvent,
 } from "motion/react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 import React, { useRef, useState } from "react";
 
@@ -116,7 +118,10 @@ export const NavBody = ({ children, className, visible }: NavBodyProps) => {
 
 export const NavItems = ({ items, className, onItemClick }: NavItemsProps) => {
     const [hovered, setHovered] = useState<number | null>(null);
-    const t = useTranslations("menu")
+    const t = useTranslations("menu");
+    const param = usePathname()
+    const locale = useLocale();
+    console.log(param)
     return (
         <motion.div
             onMouseLeave={() => setHovered(null)}
@@ -126,21 +131,21 @@ export const NavItems = ({ items, className, onItemClick }: NavItemsProps) => {
             )}
         >
             {items.map((item, idx) => (
-                <a
+                <Link
                     onMouseEnter={() => setHovered(idx)}
                     onClick={onItemClick}
-                    className="relative px-4 py-2 text-neutral-600 dark:text-neutral-300"
+                    className={`relative px-4 py-2 text-neutral-600 dark:text-neutral-300 ${param === `/${locale}${item.link}` ? "text-primary bg-gray-100 rounded-lg border" : ""}`}
                     key={`link-${idx}`}
                     href={item.link}
                 >
                     {hovered === idx && (
                         <motion.div
                             layoutId="hovered"
-                            className="absolute inset-0 h-full w-full rounded-full bg-gray-100 dark:bg-neutral-800"
+                            className="absolute inset-0 h-full w-full rounded-lg bg-gray-100 dark:bg-neutral-800"
                         />
                     )}
                     <span className="relative z-20 text-lg">{t(item.name)}</span>
-                </a>
+                </Link>
             ))}
         </motion.div>
     );

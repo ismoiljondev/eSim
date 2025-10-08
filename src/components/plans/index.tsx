@@ -1,29 +1,30 @@
 "use client";
 
-import Countries from "../countries";
+import { useTranslations } from "next-intl";
 import Title from "../title";
-import { HoverEffect } from "../ui/card-hover-effect";
 import { Tabs } from "../ui/tabs";
+import Countries from "./countries";
 
 export function Plans() {
+    const t = useTranslations("esim")
     const tabs = [
         {
-            title: "Product",
-            value: "product",
+            title: t("country"),
+            value: "country",
             content: (
                 <Countries />
             ),
         },
         {
-            title: "Services",
-            value: "services",
+            title: t("regions"),
+            value: "regions",
             content: (
                 <Countries />
             ),
         },
         {
-            title: "Playground",
-            value: "playground",
+            title: t("global"),
+            value: "global",
             content: (
                 <Countries />
             ),
@@ -32,8 +33,8 @@ export function Plans() {
     ];
 
     return (
-        <div className="h-[20rem] md:h-[40rem] [perspective:1000px] relative b flex flex-col max-w-5xl mx-auto w-full  items-start justify-start my-40">
-            <Title title='travel_next' desc='popular_destinations' />
+        <div className="h-[20rem] md:h-[40rem] [perspective:1000px] relative flex flex-col container mx-auto w-full  items-start justify-start my-40">
+            {/* <Title title='travel_next' desc='popular_destinations' /> */}
             <Tabs tabs={tabs} />
         </div>
     );

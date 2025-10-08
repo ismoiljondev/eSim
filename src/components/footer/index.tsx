@@ -1,5 +1,5 @@
 import { IconBrandInstagram, IconBrandTelegram } from '@tabler/icons-react'
-import { Mail, MessageCircle, MessageSquareCode, Phone, Plane } from 'lucide-react'
+import { Mail, Phone } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 import Link from 'next/link'
 import React from 'react'

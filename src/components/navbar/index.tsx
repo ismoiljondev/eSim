@@ -19,23 +19,23 @@ export function NavbarDemo() {
     const navItems = [
         {
             name: "esim",
-            link: "#esim",
+            link: "/esim",
         },
         {
             name: "help",
-            link: "#help",
+            link: "/help",
         },
         {
             name: "partnership",
-            link: "#partnership",
+            link: "/partnership",
         },
         {
             name: "about_us",
-            link: "#about_us",
+            link: "/about_us",
         },
         {
             name: "contact",
-            link: "#contact",
+            link: "/contact",
         },
     ];
 

@@ -47,10 +47,15 @@ export default async function RootLayout({
             defaultTheme="system"
             enableSystem
             disableTransitionOnChange
+
           >
-            <NavbarDemo />
-            {children}
-            <Footer />
+            <div className="flex flex-col min-h-screen">
+              <header><NavbarDemo /></header>
+              <main>{children}</main>
+              <footer className="w-full mt-auto">
+                <Footer />
+              </footer>
+            </div>
           </ThemeProvider></NextIntlClientProvider>
 
       </body>

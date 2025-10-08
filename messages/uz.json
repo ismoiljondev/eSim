@@ -65,5 +65,10 @@
   "follow_us_on": "Bizni quyidagi tarmoqlarda kuzating",
   "privacy_policy": "Maxfiylik siyosati",
   "terms_conditions": "Foydalanish shartlari",
-  "contact_us": "Biz bilan bog‘laning"
+  "contact_us": "Biz bilan bog‘laning",
+  "esim": {
+    "country": "Mamlakat",
+    "regions": "Hududlar",
+    "global": "Global"
+  }
 }

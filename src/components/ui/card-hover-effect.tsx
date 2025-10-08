@@ -3,8 +3,9 @@ import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "motion/react";
 import { useTranslations } from "next-intl";
 import Image, { StaticImageData } from "next/image";
+import Link from "next/link";
 
-import { useState } from "react";
+import { ReactNode, useState } from "react";
 import ReactCountryFlag from "react-country-flag";
 
 export const HoverEffect = ({
@@ -13,12 +14,12 @@ export const HoverEffect = ({
 }: {
     items: {
         title: string;
+        content?: ReactNode
         link: string;
     }[];
     className?: string;
 }) => {
     let [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
-    const t = useTranslations("countries")
     return (
         <div
             className={cn(
@@ -27,7 +28,7 @@ export const HoverEffect = ({
             )}
         >
             {items.map((item, idx) => (
-                <a
+                <Link
                     href={item?.link}
                     key={item?.link}
                     className="relative group block p-2 h-full w-full max-sm:p-1"
@@ -52,15 +53,11 @@ export const HoverEffect = ({
                         )}
                     </AnimatePresence>
                     <Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
-                        <ReactCountryFlag
-                            countryCode={item.title}
-                            svg
-                            style={{ width: "2em", height: "2em" }}
-                            aria-label={item.title}
-                        />
-                        <CardTitle>{t(item.title)}</CardTitle>
+                        <>{item?.content}
+                        </>
+                        <CardTitle>{item.title}</CardTitle>
                     </Card>
-                </a>
+                </Link>
             ))}
         </div>
     );

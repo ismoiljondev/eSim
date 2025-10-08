@@ -4,45 +4,9 @@ import { HoverEffect } from '../ui/card-hover-effect'
 import { Button } from '../ui/button'
 import { useTranslations } from 'next-intl'
 import Title from '../title'
+import { CountriesData } from '../plans/countries'
 
-const CountriesData = [
-    {
-        title: "SA",
-        link: "#"
-    },
-    {
-        title: "CN",
-        link: "#"
-    },
-    {
-        title: "TR",
-        link: "#"
-    },
-    {
-        title: "RU",
-        link: "#"
-    },
-    {
-        title: "EG",
-        link: "#"
-    },
-    {
-        title: "VN",
-        link: "#"
-    },
-    {
-        title: "TH",
-        link: "#"
-    },
-    {
-        title: "AE",
-        link: "#"
-    },
-    {
-        title: "MY",
-        link: "#"
-    },
-]
+
 
 const Countries = () => {
     const t = useTranslations()
