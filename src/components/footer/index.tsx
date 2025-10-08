@@ -26,7 +26,7 @@ const Footer = () => {
                             <Link target='_blank' href={"mailto:milliy.esim.uz@gmail.com"}>milliy.esim.uz@gmail.com</Link>
                         </div>
                         <div className='flex flex-col gap-4 items-center max-lg:col-span-2 max-lg:mx-auto max-sm:col-span-1'>
-                            <p className='text-xl text-center'>{t("follow_us_on")}</p>
+                            <p className='text-xl text-center'>{t("follow_us_on")}:</p>
                             <div className='flex gap-3'>
                                 <Link href={'https://t.me/milliysim'} target='_blank'>
                                     <div className='border rounded-lg p-2'>
@@ -45,10 +45,10 @@ const Footer = () => {
                         <div className='flex gap-3 max-sm:flex-col items-center'>
                             <Link className='font-medium hover:underline' href={'/privacy_policy'}>
                                 {t("privacy_policy")}
-                            </Link> |
+                            </Link>
                             <Link className='font-medium hover:underline' href={'/terms_conditions'}>
                                 {t("terms_conditions")}
-                            </Link> |
+                            </Link>
                             <Link className='font-medium hover:underline' href={'/contact_us'}>
                                 {t("contact_us")}
                             </Link>

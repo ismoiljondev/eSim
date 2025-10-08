@@ -122,9 +122,9 @@
 }
 
 .container {
-  width: 80%;
+  width: 90%;
   @media (width >= 40rem /* 640px */) {
-    width: 95%;
+    width: 90%;
     max-width: 40rem /* 640px */;
   }
   @media (width >= 48rem /* 768px */) {
@@ -132,15 +132,19 @@
     max-width: 48rem /* 768px */;
   }
   @media (width >= 64rem /* 1024px */) {
+    width: 85%;
     max-width: 64rem /* 1024px */;
   }
   @media (width >= 80rem /* 1280px */) {
+    width: 80%;
     max-width: 80rem /* 1280px */;
   }
   @media (width >= 96rem /* 1536px */) {
+    width: 80%;
     max-width: 96rem /* 1536px */;
   }
   @media (width >= 112rem /* 1536px */) {
+    width: 80%;
     max-width: 112rem /* 1536px */;
   }
 }
