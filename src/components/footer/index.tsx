@@ -22,14 +22,14 @@ const Footer = () => {
                             <div className='border rounded-lg p-2'>
                                 <Mail />
                             </div>
-                            <p>{t("Email")}</p>
+                            <p>{t("email")}</p>
                             <Link target='_blank' href={"mailto:milliy.esim.uz@gmail.com"}>milliy.esim.uz@gmail.com</Link>
                         </div>
                         <div className='flex flex-col gap-2 items-center'>
                             <div className='border rounded-lg p-2'>
                                 <IconBrandTelegram />
                             </div>
-                            <p>{t("Telegram")}</p>
+                            <p>{t("telegram")}</p>
                             <Link target='_blank' href={"https://t.me/milliysim"}>MilliySim</Link>
                         </div>
                     </div>
