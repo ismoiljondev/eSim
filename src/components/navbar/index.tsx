@@ -42,7 +42,7 @@ export function NavbarDemo() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const t = useTranslations("menu")
     return (
-        <div className="fixed top-10 z-100 w-full">
+        <div className="fixed top-0 z-1000 pt-5 w-full">
             <Navbar>
                 {/* Desktop Navigation */}
                 <NavBody>
@@ -77,7 +77,7 @@ export function NavbarDemo() {
                                 onClick={() => setIsMobileMenuOpen(false)}
                                 className="relative text-neutral-600 dark:text-neutral-300"
                             >
-                                <span className="block">{item.name}</span>
+                                <span className="block">{t(item.name)}</span>
                             </a>
                         ))}
                         <div className="flex w-full flex-col gap-4">

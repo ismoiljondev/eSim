@@ -122,7 +122,7 @@
 }
 
 .container {
-  width: 90%;
+  width: 80%;
   @media (width >= 40rem /* 640px */) {
     max-width: 40rem /* 640px */;
   }
@@ -137,6 +137,9 @@
   }
   @media (width >= 96rem /* 1536px */) {
     max-width: 96rem /* 1536px */;
+  }
+  @media (width >= 112rem /* 1536px */) {
+    max-width: 112rem /* 1536px */;
   }
 }
 

@@ -60,5 +60,9 @@
   },
   "phone": "Phone",
   "email": "Email",
-  "telegram": "Telegram"
+  "telegram": "Telegram",
+  "follow_us_on": "Follow us on",
+  "privacy_policy": "Privacy Policy",
+  "terms_conditions": "Terms & Conditions",
+  "contact_us": "Contact Us"
 }

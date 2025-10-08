@@ -70,7 +70,7 @@ export const Navbar = ({ children, className }: NavbarProps) => {
         <motion.div
             ref={ref}
             // IMPORTANT: Change this to class of `fixed` if you want the navbar to be fixed
-            className={cn("sticky inset-x-0 top-20 z-40 w-full", className)}
+            className={cn("sticky inset-x-0 top-1 z-40 w-full", className)}
         >
             {React.Children.map(children, (child) =>
                 React.isValidElement(child)
@@ -92,7 +92,7 @@ export const NavBody = ({ children, className, visible }: NavBodyProps) => {
                 boxShadow: visible
                     ? "0 0 24px rgba(34, 42, 53, 0.06), 0 1px 1px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(34, 42, 53, 0.04), 0 0 4px rgba(34, 42, 53, 0.08), 0 16px 68px rgba(47, 48, 55, 0.05), 0 1px 0 rgba(255, 255, 255, 0.1) inset"
                     : "none",
-                width: visible ? "40%" : "100%",
+                width: visible ? "95%" : "100%",
                 y: visible ? 20 : 0,
             }}
             transition={{
@@ -104,7 +104,7 @@ export const NavBody = ({ children, className, visible }: NavBodyProps) => {
                 minWidth: "1000px",
             }}
             className={cn(
-                "relative z-[60] mx-auto hidden w-full max-w-7xl flex-row items-center justify-between self-start rounded-full bg-transparent px-4 py-2 lg:flex dark:bg-transparent",
+                "relative z-[60] mx-auto hidden w-full max-w-7xl flex-row items-center justify-between self-start rounded-xl bg-transparent px-4 py-3 lg:flex dark:bg-transparent border",
                 visible && "bg-white/80 dark:bg-neutral-950/80",
                 className,
             )}
@@ -139,7 +139,7 @@ export const NavItems = ({ items, className, onItemClick }: NavItemsProps) => {
                             className="absolute inset-0 h-full w-full rounded-full bg-gray-100 dark:bg-neutral-800"
                         />
                     )}
-                    <span className="relative z-20">{t(item.name)}</span>
+                    <span className="relative z-20 text-lg">{t(item.name)}</span>
                 </a>
             ))}
         </motion.div>
@@ -243,7 +243,7 @@ export const NavbarLogo = () => {
                 width={30}
                 height={30}
             />
-            <span className="font-medium text-black dark:text-white">MilliySim</span>
+            <span className="font-medium text-black dark:text-white text-xl">MilliySim</span>
         </a>
     );
 };
