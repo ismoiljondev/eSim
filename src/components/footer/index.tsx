@@ -10,7 +10,7 @@ const Footer = () => {
         <div className='border-2 py-8'>
             <div className='mx-auto w-4/5'>
                 <div className='flex flex-col gap-3'>
-                    <div className='flex justify-between border-b mb-5 pb-5'>
+                    <div className='grid grid-cols-3 border-b mb-5 pb-5 max-lg:grid-cols-2 max-lg:gap-6 max-sm:grid-cols-1'>
                         <div className='flex flex-col gap-2 items-center'>
                             <div className='border rounded-lg p-2'>
                                 <Phone />
@@ -25,8 +25,8 @@ const Footer = () => {
                             <p>{t("email")}</p>
                             <Link target='_blank' href={"mailto:milliy.esim.uz@gmail.com"}>milliy.esim.uz@gmail.com</Link>
                         </div>
-                        <div className='flex flex-col gap-4 items-center'>
-                            <p className='text-xl'>{t("follow_us_on")}</p>
+                        <div className='flex flex-col gap-4 items-center max-lg:col-span-2 max-lg:mx-auto max-sm:col-span-1'>
+                            <p className='text-xl text-center'>{t("follow_us_on")}</p>
                             <div className='flex gap-3'>
                                 <Link href={'https://t.me/milliysim'} target='_blank'>
                                     <div className='border rounded-lg p-2'>
@@ -41,8 +41,8 @@ const Footer = () => {
 
                         </div>
                     </div>
-                    <div className='flex justify-between'>
-                        <div className='flex gap-3'>
+                    <div className='flex justify-between max-lg:flex-col-reverse max-lg:gap-4 items-center'>
+                        <div className='flex gap-3 max-sm:flex-col items-center'>
                             <Link className='font-medium hover:underline' href={'/privacy_policy'}>
                                 {t("privacy_policy")}
                             </Link> |
