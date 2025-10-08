@@ -48,7 +48,7 @@ const Countries = () => {
     const t = useTranslations()
     return (
         <div className='bg-white dark:bg-black'>
-            <div className='flex flex-col container mx-auto'>
+            <div className='flex flex-col justify-center container mx-auto'>
                 <Title title='travel_next' desc='popular_destinations' />
                 <HoverEffect items={CountriesData} />
                 <Button className='w-fit mx-auto'>{t("show_more")}</Button>

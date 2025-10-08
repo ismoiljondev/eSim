@@ -44,7 +44,8 @@
     "word3": "anywhere",
     "word4": "with",
     "word5": "MilliySim.",
-    "pricing": "200+ countries and regions starting from only $2"
+    "pricing": "200+ countries and regions starting from only $2",
+    "freedom": "The road to freedom starts from here"
   },
   "countries": {
     "SA": "Saudi Arabia",
@@ -56,5 +57,8 @@
     "TH": "Thailand",
     "AE": "United Arab Emirates",
     "MY": "Malaysia"
-  }
+  },
+  "phone": "Phone",
+  "email": "Email",
+  "telegram": "Telegram"
 }

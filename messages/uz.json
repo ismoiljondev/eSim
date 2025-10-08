@@ -45,7 +45,8 @@
     "word3": "joyida",
     "word4": "aloqada",
     "word5": "MilliySim",
-    "pricing": "200+ mamlakat va hududlarda, atigi $2 dan boshlab"
+    "pricing": "200+ mamlakat va hududlarda, atigi $2 dan boshlab",
+    "freedom": "Erkinlik yo‘li shu yerdan boshlanadi"
   },
   "countries": {
     "SA": "Saudiya Arabistoni",
@@ -57,5 +58,8 @@
     "TH": "Tailand",
     "AE": "Birlashgan Arab Amirliklari",
     "MY": "Malaziya"
-  }
+  },
+  "phone": "Telefon",
+  "email": "Elektron pochta",
+  "telegram": "Telegram"
 }
