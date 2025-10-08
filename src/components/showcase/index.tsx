@@ -27,7 +27,7 @@ export function Showcase() {
                     Signup
                 </button>
             </div> */}
-            <p className="text-black dark:text-white text-2xl font-medium max-md:text-xl max-sm:text-sm text-center max-sm:w-4/5">{t("pricing")}</p>
+            <p className="text-neutral-600 dark:text-neutral-200 text-2xl max-md:text-xl max-sm:text-sm text-center max-sm:w-4/5">{t("pricing")}</p>
         </div>
     );
 }

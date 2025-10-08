@@ -164,7 +164,7 @@ export const TypewriterEffectSmooth = ({
                     {renderWords()}{" "}
                 </div>{" "}
             </motion.div>
-            <motion.span
+            {/* <motion.span
                 initial={{
                     opacity: 0,
                 }}
@@ -181,7 +181,7 @@ export const TypewriterEffectSmooth = ({
                     "block rounded-sm w-[4px]  h-4 sm:h-6 xl:h-12 bg-blue-500",
                     cursorClassName
                 )}
-            ></motion.span>
+            ></motion.span> */}
         </div>
     );
 };

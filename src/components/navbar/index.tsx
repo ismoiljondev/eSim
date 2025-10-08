@@ -60,10 +60,14 @@ export function NavbarDemo() {
                 <MobileNav>
                     <MobileNavHeader>
                         <NavbarLogo />
-                        <MobileNavToggle
-                            isOpen={isMobileMenuOpen}
-                            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                        />
+                        <div className="flex gap-2 items-center">
+                            <LanguageSwitcher />
+                            <ModeToggle />
+                            <MobileNavToggle
+                                isOpen={isMobileMenuOpen}
+                                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                            />
+                        </div>
                     </MobileNavHeader>
 
                     <MobileNavMenu
@@ -81,7 +85,6 @@ export function NavbarDemo() {
                             </a>
                         ))}
                         <div className="flex w-full flex-col gap-4">
-                            <ModeToggle />
                             <NavbarButton
                                 onClick={() => setIsMobileMenuOpen(false)}
                                 variant="primary"

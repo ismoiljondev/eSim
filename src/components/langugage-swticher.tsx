@@ -32,7 +32,7 @@ export function LanguageSwitcher() {
 
     return (
         <Select onValueChange={handleChange} defaultValue={currentLang}>
-            <SelectTrigger className=" justify-center">
+            <SelectTrigger hideTrigger className="justify-center">
                 <SelectValue className="">
                     <ReactCountryFlag
                         countryCode={currentLanguage.countryCode}
