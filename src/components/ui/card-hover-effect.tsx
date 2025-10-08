@@ -51,7 +51,7 @@ export const HoverEffect = ({
                             />
                         )}
                     </AnimatePresence>
-                    <Card className="rounded-3xl max-lg:rounded-2xl max-md:rounded-xl border">
+                    <Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
                         <ReactCountryFlag
                             countryCode={item.title}
                             svg
@@ -76,7 +76,7 @@ export const Card = ({
     return (
         <div
             className={cn(
-                "rounded-2xl h-full w-full overflow-hidden  bg-white dark:hover:bg-white dark:bg-black dark:border-white/[0.2] border group-hover:border-slate-700 relative z-20 ",
+                "rounded-2xl h-full w-full overflow-hidden bg-white dark:hover:bg-white dark:bg-black dark:border-white/[0.2] border group-hover:border-slate-700 relative z-20 ",
                 className
             )}
         >
