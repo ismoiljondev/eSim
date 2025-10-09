@@ -1,5 +1,5 @@
 import React from 'react'
-import { HoverEffect } from '../ui/card-hover-effect'
+import { Card, CardTitle, HoverEffect } from '../ui/card-hover-effect'
 import { Button } from '../ui/button'
 import { useTranslations } from 'next-intl'
 
@@ -9,49 +9,84 @@ const Regions = () => {
     const t = useTranslations("regions");
     const RegionsData = [
         {
-            title: t("1"),
-            link: "#"
+            content: <Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
+                <CardTitle>{t("1")}</CardTitle>
+            </Card>,
+
         },
         {
-            title: t("2"),
-            link: "#"
+            content: <Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
+                <CardTitle>{t("1")}</CardTitle>
+            </Card>,
+
         },
         {
-            title: t("3"),
-            link: "#"
+            content: <Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
+                <CardTitle>{t("1")}</CardTitle>
+            </Card>,
+
         },
         {
-            title: t("4"),
-            link: "#"
+            content: <Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
+                <CardTitle>{t("1")}</CardTitle>
+            </Card>,
+
         },
         {
-            title: t("6"),
-            link: "#"
+            content: <Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
+                <CardTitle>{t("1")}</CardTitle>
+            </Card>,
+
         },
         {
-            title: t("7"),
-            link: "#"
+            content: <Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
+                <CardTitle>{t("1")}</CardTitle>
+            </Card>,
+
         },
         {
-            title: t("8"),
-            link: "#"
+            content: <Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
+                <CardTitle>{t("1")}</CardTitle>
+            </Card>,
+
         },
         {
-            title: t("9"),
-            link: "#"
+            content: <Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
+                <CardTitle>{t("1")}</CardTitle>
+            </Card>,
+
         },
         {
-            title: t("10"),
-            link: "#"
+            content: <Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
+                <CardTitle>{t("1")}</CardTitle>
+            </Card>,
+
         },
         {
-            title: t("11"),
-            link: "#"
+            content: <Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
+                <CardTitle>{t("1")}</CardTitle>
+            </Card>,
+
         },
         {
-            title: t("12"),
-            link: "#"
+            content: <Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
+                <CardTitle>{t("1")}</CardTitle>
+            </Card>,
+
         },
+        {
+            content: <Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
+                <CardTitle>{t("1")}</CardTitle>
+            </Card>,
+
+        },
+        {
+            content: <Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
+                <CardTitle>{t("1")}</CardTitle>
+            </Card>,
+
+        },
+
     ]
     return (
         <div className='bg-white dark:bg-black'>

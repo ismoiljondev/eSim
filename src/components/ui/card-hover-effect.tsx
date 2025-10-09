@@ -1,21 +1,15 @@
 "use client"
 import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "motion/react";
-import { useTranslations } from "next-intl";
-import Image, { StaticImageData } from "next/image";
-import Link from "next/link";
 
 import { ReactNode, useState } from "react";
-import ReactCountryFlag from "react-country-flag";
 
 export const HoverEffect = ({
     items,
     className,
 }: {
     items: {
-        title: string;
         content?: ReactNode
-        link: string;
     }[];
     className?: string;
 }) => {
@@ -28,9 +22,9 @@ export const HoverEffect = ({
             )}
         >
             {items.map((item, idx) => (
-                <Link
-                    href={item?.link}
-                    key={item?.link}
+                <div
+                    // href={item?.link}
+                    // key={item?.link}
                     className="relative group block p-2 h-full w-full max-sm:p-1"
                     onMouseEnter={() => setHoveredIndex(idx)}
                     onMouseLeave={() => setHoveredIndex(null)}
@@ -52,12 +46,10 @@ export const HoverEffect = ({
                             />
                         )}
                     </AnimatePresence>
-                    <Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
-                        <>{item?.content}
-                        </>
-                        <CardTitle>{item.title}</CardTitle>
-                    </Card>
-                </Link>
+                    {
+                        item?.content
+                    }
+                </div>
             ))}
         </div>
     );

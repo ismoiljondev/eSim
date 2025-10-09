@@ -71,7 +71,12 @@
     "regions": "Regions",
     "global": "Global",
     "select_destination": "Select your destination",
-    "esim_plans_for": "eSIM Plans for {country}"
+    "esim_plans_for": "eSIM Plans for {country}",
+    "data": "Data",
+    "call": "Call",
+    "validity": "Validity",
+    "days": "day(s)",
+    "view_features": "View features"
   },
   "regions": {
     "1": "Africa",

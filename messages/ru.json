@@ -71,7 +71,12 @@
     "regions": "Регионы",
     "global": "Глобальный",
     "select_destination": "Выберите страну для eSIM",
-    "esim_plans_for": "Тарифы eSIM для {country}"
+    "esim_plans_for": "Тарифы eSIM для {country}",
+    "data": "Данные",
+    "call": "Звонок",
+    "validity": "Срок действия",
+    "days": "дн.",
+    "view_features": "Посмотреть функции"
   },
   "regions": {
     "1": "Африка",

@@ -72,7 +72,12 @@
     "regions": "Hududlar",
     "global": "Global",
     "select_destination": "eSIM kerak bo‘lgan mamlakatni tanlang",
-    "esim_plans_for": "{country} uchun eSIM rejalari"
+    "esim_plans_for": "{country} uchun eSIM rejalari",
+    "data": "Ma'lumotlar",
+    "call": "Qo‘ng‘iroq",
+    "validity": "Amal qilish muddati",
+    "days": "kun",
+    "view_features": "Xususiyatlarni ko‘rish"
   },
   "regions": {
     "1": "Afrika",

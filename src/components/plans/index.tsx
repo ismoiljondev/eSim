@@ -13,7 +13,7 @@ export function Plans() {
         <div className="h-[20rem] md:h-[40rem] [perspective:1000px] relative flex flex-col container mx-auto w-full  items-center justify-start my-40">
             <Title title={t("select_destination")} desc='' className="mb-8" />
             <SearchInput />
-            <Tabs defaultValue="plans" className="w-full">
+            <Tabs defaultValue="country" className="w-full">
                 <TabsList className="mx-auto p-1 h-11">
                     <TabsTrigger className="text-lg p-2 h-9 cursor-pointer" value="country">{t("country")}</TabsTrigger>
                     <TabsTrigger className="text-lg p-2 h-9 cursor-pointer" value="regions">{t("regions")}</TabsTrigger>

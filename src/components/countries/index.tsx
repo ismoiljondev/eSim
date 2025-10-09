@@ -1,6 +1,6 @@
 import React from 'react'
 import japan from '@/media/japan.webp'
-import { HoverEffect } from '../ui/card-hover-effect'
+import { Card, CardTitle, HoverEffect } from '../ui/card-hover-effect'
 import { Button } from '../ui/button'
 import { useTranslations } from 'next-intl'
 import Title from '../title'
@@ -13,87 +13,105 @@ const Countries = () => {
     const tr = useTranslations();
     const CountriesData = [
         {
-            title: t("SA"),
-            content: <ReactCountryFlag
-                countryCode={"SA"}
-                svg
-                style={{ width: "2em", height: "2em" }}
-                aria-label={"SA"}
-            />,
-            link: "#"
+            content: <Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
+                <ReactCountryFlag
+                    countryCode={"SA"}
+                    svg
+                    style={{ width: "2em", height: "2em" }}
+                    aria-label={"SA"}
+                />
+                <CardTitle>{t("SA")}</CardTitle>
+            </Card>,
         },
         {
-            title: t("CN"), content: <ReactCountryFlag
-                countryCode={"CN"}
-                svg
-                style={{ width: "2em", height: "2em" }}
-                aria-label={"CN"}
-            />,
-            link: "#"
+            content: <Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
+                <ReactCountryFlag
+                    countryCode={"CN"}
+                    svg
+                    style={{ width: "2em", height: "2em" }}
+                    aria-label={"CN"}
+                />
+                <CardTitle>{t("CN")}</CardTitle>
+            </Card>,
         },
         {
-            title: t("TR"), content: <ReactCountryFlag
-                countryCode={"TR"}
-                svg
-                style={{ width: "2em", height: "2em" }}
-                aria-label={"TR"}
-            />,
-            link: "#"
+            content: <Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
+                <ReactCountryFlag
+                    countryCode={"CN"}
+                    svg
+                    style={{ width: "2em", height: "2em" }}
+                    aria-label={"CN"}
+                />
+                <CardTitle>{t("CN")}</CardTitle>
+            </Card>,
         },
         {
-            title: t("RU"), content: <ReactCountryFlag
-                countryCode={"RU"}
-                svg
-                style={{ width: "2em", height: "2em" }}
-                aria-label={"RU"}
-            />,
-            link: "#"
+            content: <Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
+                <ReactCountryFlag
+                    countryCode={"CN"}
+                    svg
+                    style={{ width: "2em", height: "2em" }}
+                    aria-label={"CN"}
+                />
+                <CardTitle>{t("CN")}</CardTitle>
+            </Card>,
         },
         {
-            title: t("EG"), content: <ReactCountryFlag
-                countryCode={"EG"}
-                svg
-                style={{ width: "2em", height: "2em" }}
-                aria-label={"EG"}
-            />,
-            link: "#"
+            content: <Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
+                <ReactCountryFlag
+                    countryCode={"CN"}
+                    svg
+                    style={{ width: "2em", height: "2em" }}
+                    aria-label={"CN"}
+                />
+                <CardTitle>{t("CN")}</CardTitle>
+            </Card>,
         },
         {
-            title: t("VN"), content: <ReactCountryFlag
-                countryCode={"VN"}
-                svg
-                style={{ width: "2em", height: "2em" }}
-                aria-label={"VN"}
-            />,
-            link: "#"
+            content: <Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
+                <ReactCountryFlag
+                    countryCode={"CN"}
+                    svg
+                    style={{ width: "2em", height: "2em" }}
+                    aria-label={"CN"}
+                />
+                <CardTitle>{t("CN")}</CardTitle>
+            </Card>,
         },
         {
-            title: t("TH"), content: <ReactCountryFlag
-                countryCode={"TH"}
-                svg
-                style={{ width: "2em", height: "2em" }}
-                aria-label={"TH"}
-            />,
-            link: "#"
+            content: <Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
+                <ReactCountryFlag
+                    countryCode={"CN"}
+                    svg
+                    style={{ width: "2em", height: "2em" }}
+                    aria-label={"CN"}
+                />
+                <CardTitle>{t("CN")}</CardTitle>
+            </Card>,
         },
         {
-            title: t("AE"), content: <ReactCountryFlag
-                countryCode={"AE"}
-                svg
-                style={{ width: "2em", height: "2em" }}
-                aria-label={"AE"}
-            />,
-            link: "#"
+            content: <Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
+                <ReactCountryFlag
+                    countryCode={"CN"}
+                    svg
+                    style={{ width: "2em", height: "2em" }}
+                    aria-label={"CN"}
+                />
+                <CardTitle>{t("CN")}</CardTitle>
+            </Card>,
         },
         {
-            title: t("MY"), content: <ReactCountryFlag
-                countryCode={"MY"}
-                svg
-                style={{ width: "2em", height: "2em" }}
-                aria-label={"MY"}
-            />,
-            link: "#"
+            content: <Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
+                <ReactCountryFlag
+                    countryCode={"CN"}
+                    svg
+                    style={{ width: "2em", height: "2em" }}
+                    aria-label={"CN"}
+                />
+                <CardTitle>{t("CN")}</CardTitle>
+            </Card>,
         },
+
     ]
     return (
         <div className='bg-white dark:bg-black'>
