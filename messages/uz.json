@@ -71,6 +71,21 @@
     "country": "Mamlakat",
     "regions": "Hududlar",
     "global": "Global",
-    "select_destination": "eSIM kerak bo‘lgan mamlakatni tanlang"
+    "select_destination": "eSIM kerak bo‘lgan mamlakatni tanlang",
+    "esim_plans_for": "{country} uchun eSIM rejalari"
+  },
+  "regions": {
+    "1": "Afrika",
+    "2": "Osiyo",
+    "3": "Yevropa",
+    "4": "Shimoliy Amerika",
+    "5": "Tinch okeani mintaqasi",
+    "6": "EMEA (Yevropa, Yaqin Sharq va Afrika)",
+    "7": "Yaqin Sharq",
+    "8": "Markaziy Amerika",
+    "9": "Janubiy Amerika",
+    "10": "Karib havzasi",
+    "11": "Antarktida",
+    "12": "Avstraliya"
   }
 }

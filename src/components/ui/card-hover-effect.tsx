@@ -19,7 +19,6 @@ export const HoverEffect = ({
     }[];
     className?: string;
 }) => {
-    const t = useTranslations("countries")
     let [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
     return (
         <div
@@ -56,7 +55,7 @@ export const HoverEffect = ({
                     <Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
                         <>{item?.content}
                         </>
-                        <CardTitle>{t(item.title)}</CardTitle>
+                        <CardTitle>{item.title}</CardTitle>
                     </Card>
                 </Link>
             ))}
