@@ -40,7 +40,7 @@ export const Tabs = ({
         <>
             <div
                 className={cn(
-                    "flex flex-row items-center justify-start [perspective:1000px] relative overflow-auto sm:overflow-visible no-visible-scrollbar max-w-full w-full",
+                    "flex flex-row items-center [perspective:1000px] relative overflow-auto sm:overflow-visible no-visible-scrollbar max-w-full rounded-2xl justify-center w-fit mx-auto border shadow p-1",
                     containerClassName
                 )}
             >
@@ -62,13 +62,13 @@ export const Tabs = ({
                                 layoutId="clickedbutton"
                                 transition={{ type: "spring", bounce: 0.3, duration: 0.6 }}
                                 className={cn(
-                                    "absolute inset-0 bg-gray-200 dark:bg-zinc-800 rounded-full ",
+                                    "absolute inset-0 bg-gray-200 dark:bg-zinc-800 rounded-xl cursor-pointer ",
                                     activeTabClassName
                                 )}
                             />
                         )}
 
-                        <span className="relative block text-black dark:text-white">
+                        <span className="relative block text-2xl font-medium text-black dark:text-white cursor-pointer">
                             {tab.title}
                         </span>
                     </button>

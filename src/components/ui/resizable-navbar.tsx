@@ -121,7 +121,6 @@ export const NavItems = ({ items, className, onItemClick }: NavItemsProps) => {
     const t = useTranslations("menu");
     const param = usePathname()
     const locale = useLocale();
-    console.log(param)
     return (
         <motion.div
             onMouseLeave={() => setHovered(null)}
@@ -134,7 +133,7 @@ export const NavItems = ({ items, className, onItemClick }: NavItemsProps) => {
                 <Link
                     onMouseEnter={() => setHovered(idx)}
                     onClick={onItemClick}
-                    className={`relative px-4 py-2 text-neutral-600 dark:text-neutral-300 ${param === `/${locale}${item.link}` ? "text-primary bg-gray-100 rounded-lg border" : ""}`}
+                    className={`relative px-4 py-2 text-neutral-600 dark:text-neutral-300 ${param === `/${locale}${item.link}` ? " bg-gray-100 dark:bg-neutral-800 rounded-lg border" : ""}`}
                     key={`link-${idx}`}
                     href={item.link}
                 >

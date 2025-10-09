@@ -5,7 +5,6 @@ import { Button } from '../ui/button'
 import { useTranslations } from 'next-intl'
 import Title from '../title'
 import ReactCountryFlag from 'react-country-flag'
-
 export const CountriesData = [
     {
         title: "SA",

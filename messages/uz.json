@@ -57,7 +57,8 @@
     "VN": "Vetnam",
     "TH": "Tailand",
     "AE": "BAA",
-    "MY": "Malaziya"
+    "MY": "Malaziya",
+    "search_destination": "Manzilni qidiring"
   },
   "phone": "Telefon",
   "email": "Elektron pochta",
@@ -69,6 +70,7 @@
   "esim": {
     "country": "Mamlakat",
     "regions": "Hududlar",
-    "global": "Global"
+    "global": "Global",
+    "select_destination": "eSIM kerak bo‘lgan mamlakatni tanlang"
   }
 }

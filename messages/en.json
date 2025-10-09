@@ -56,7 +56,8 @@
     "VN": "Vietnam",
     "TH": "Thailand",
     "AE": "UAE",
-    "MY": "Malaysia"
+    "MY": "Malaysia",
+    "search_destination": "Search a destination"
   },
   "phone": "Phone",
   "email": "Email",
@@ -68,6 +69,7 @@
   "esim": {
     "country": "Country",
     "regions": "Regions",
-    "global": "Global"
+    "global": "Global",
+    "select_destination": "Select your destination"
   }
 }

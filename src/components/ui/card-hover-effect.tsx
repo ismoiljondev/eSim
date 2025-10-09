@@ -19,6 +19,7 @@ export const HoverEffect = ({
     }[];
     className?: string;
 }) => {
+    const t = useTranslations("countries")
     let [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
     return (
         <div
@@ -55,7 +56,7 @@ export const HoverEffect = ({
                     <Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
                         <>{item?.content}
                         </>
-                        <CardTitle>{item.title}</CardTitle>
+                        <CardTitle>{t(item.title)}</CardTitle>
                     </Card>
                 </Link>
             ))}
@@ -73,7 +74,7 @@ export const Card = ({
     return (
         <div
             className={cn(
-                "rounded-2xl h-full w-full overflow-hidden bg-white dark:hover:bg-white dark:bg-black dark:border-white/[0.2] border group-hover:border-slate-700 relative z-20 ",
+                "rounded-2xl h-full w-full overflow-hidden bg-white dark:hover:bg-neutral-800 dark:bg-black dark:border-white/[0.2] border group-hover:border-slate-700 relative z-20 ",
                 className
             )}
         >
@@ -91,7 +92,7 @@ export const CardTitle = ({
     children: React.ReactNode;
 }) => {
     return (
-        <h4 className={cn("font-bold tracking-wide dark:text-zinc-100 dark:group-hover:text-black", className)}>
+        <h4 className={cn("font-bold tracking-wide  dark:text-zinc-100 dark:group-hover:text-white", className)}>
             {children}
         </h4>
     );

@@ -12,14 +12,14 @@ const Footer = () => {
                 <div className='flex flex-col gap-3 max-sm:gap-2'>
                     <div className='grid grid-cols-3 border-b mb-5 max-md:mb-3 max-sm:mb-2 pb-5 max-lg:grid-cols-2 max-lg:gap-6 max-sm:grid-cols-1'>
                         <div className='flex flex-col gap-2 items-center'>
-                            <div className='border rounded-lg p-2 border-black'>
+                            <div className='border rounded-lg p-2 border-gray-600'>
                                 <Phone className="h-4 w-4 text-black dark:text-neutral-400" />
                             </div>
                             <p>{t("phone")}</p>
                             <Link href={"tel:+998911234567"}>+998 91 123 45 67</Link>
                         </div>
                         <div className='flex flex-col gap-2 items-center'>
-                            <div className='border rounded-lg p-2 border-black'>
+                            <div className='border rounded-lg p-2 border-gray-600'>
                                 <Mail className="h-4 w-4 text-black dark:text-neutral-400" />
                             </div>
                             <p>{t("email")}</p>
@@ -29,11 +29,11 @@ const Footer = () => {
                             <p className='text-xl text-center'>{t("follow_us_on")}:</p>
                             <div className='flex gap-3'>
                                 <Link href={'https://t.me/milliysim'} target='_blank'>
-                                    <div className='border rounded-lg p-2 border-black'>
+                                    <div className='border rounded-lg p-2 border-gray-600'>
                                         <IconBrandTelegram className="h-4 w-4 text-black dark:text-neutral-400" />
                                     </div></Link>
                                 <Link href={'https://www.instagram.com/milliysim/'} target='_blank'>
-                                    <div className='border rounded-lg p-2 border-black'>
+                                    <div className='border rounded-lg p-2 border-gray-600'>
                                         <IconBrandInstagram className="h-4 w-4 text-black dark:text-neutral-400" />
                                     </div></Link>
                             </div>

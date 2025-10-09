@@ -13,7 +13,7 @@ const Countries = () => {
     return (
         <div className='bg-white dark:bg-black'>
             <div className='flex flex-col justify-center container mx-auto'>
-                <Title title='travel_next' desc='popular_destinations' />
+                <Title title={t('travel_next')} desc={t('popular_destinations')} />
                 <HoverEffect items={CountriesData} />
                 <Button className='w-fit mx-auto'>{t("show_more")}</Button>
             </div>
