@@ -2,6 +2,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import React from 'react'
 import DataCards from './data-cards'
 import { useTranslations } from 'next-intl'
+import CallCards from './call-cards'
 
 const PlanTabs = () => {
     const t = useTranslations("esim")
@@ -13,7 +14,7 @@ const PlanTabs = () => {
                     <TabsTrigger className="text-lg p-2 h-9 cursor-pointer" value="call">{t("call")}</TabsTrigger>
                 </TabsList>
                 <TabsContent value="data"><DataCards /></TabsContent>
-                <TabsContent value="call"><DataCards /></TabsContent>
+                <TabsContent value="call"><CallCards /></TabsContent>
             </Tabs></>
     )
 }
