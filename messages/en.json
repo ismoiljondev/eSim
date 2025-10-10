@@ -128,5 +128,6 @@
     "10": "Caribbean",
     "11": "Antarctica",
     "12": "Australia"
-  }
+  },
+  "device_compatibility": "Device compatibility?"
 }
