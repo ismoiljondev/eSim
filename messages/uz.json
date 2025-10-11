@@ -130,5 +130,12 @@
     "11": "Antarktida",
     "12": "Avstraliya"
   },
-  "device_compatibility": "Qurilma mosligi?"
+  "device-modal": {
+    "device_compatibility": "Qurilma mosligi?",
+    "compatible_device_search": "Mos qurilmani qidirish",
+    "compatible_device_search_desc": "Telefoningizda *#06# tering va EID mavjudligini tekshiring. Uni telefon sozlamalarida ham topishingiz mumkin.",
+    "locked_devices": "Operator tomonidan qulflangan qurilmalar qo‘llab-quvvatlanmaydi!",
+    "china_devices": "Xitoy va Gonkongda ishlab chiqarilgan qurilmalar eSIM’ni qo‘llab-quvvatlamaydi!",
+    "or": "yoki"
+  }
 }
