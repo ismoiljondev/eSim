@@ -136,5 +136,13 @@
     "locked_devices": "Locked devices from carriers are not supported!",
     "china_devices": "Devices from China & HK do not support eSIM!",
     "or": "or"
+  },
+  "help": {
+    "help_center": "Help Center",
+    "set_up": "Set Up",
+    "troubleshooting": "Troubleshooting",
+    "self_serve_guide": "Self-Serve Guide",
+    "device_compatibility": "Device Compatibility",
+    "about_milliy_sim": "About MilliySim"
   }
 }

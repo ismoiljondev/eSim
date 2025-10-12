@@ -137,5 +137,13 @@
     "locked_devices": "Operator tomonidan qulflangan qurilmalar qo‘llab-quvvatlanmaydi!",
     "china_devices": "Xitoy va Gonkongda ishlab chiqarilgan qurilmalar eSIM’ni qo‘llab-quvvatlamaydi!",
     "or": "yoki"
+  },
+  "help": {
+    "help_center": "Yordam markazi",
+    "set_up": "Sozlash",
+    "troubleshooting": "Nosozliklarni bartaraf etish",
+    "self_serve_guide": "O‘z-o‘ziga yordam qo‘llanmasi",
+    "device_compatibility": "Qurilma mosligi",
+    "about_milliy_sim": "MilliySim haqida"
   }
 }
