@@ -10,7 +10,7 @@ const SetUp = () => {
                 <TabsTrigger className="text-lg px-3 h-full rounded-md cursor-pointer bg-white dark:bg-black mx-1" value="iOS">iOS</TabsTrigger>
                 <TabsTrigger className="text-lg px-3 h-full rounded-md cursor-pointer bg-white dark:bg-black mx-1" value="Android">Android</TabsTrigger>
             </TabsList>
-            <TabsContent value="iOS"><></></TabsContent>
+            <TabsContent value="iOS"></TabsContent>
             <TabsContent value="Android"><></></TabsContent>
         </Tabs>
     )
