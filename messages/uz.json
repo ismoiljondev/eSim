@@ -144,6 +144,15 @@
     "troubleshooting": "Nosozliklarni bartaraf etish",
     "self_serve_guide": "O‘z-o‘ziga yordam qo‘llanmasi",
     "device_compatibility": "Qurilma mosligi",
-    "about_milliy_sim": "MilliySim haqida"
+    "about_milliy_sim": "MilliySim haqida",
+    "step_of": "Bosqich {current} / {total}",
+    "go_to_settings": "Sozlamalarga o‘ting.",
+    "select_mobile_services": "Mobil xizmatlarni tanlang.",
+    "select_add_esim": "eSIM qo‘shishni tanlang.",
+    "select_use_qr_code": "QR koddan foydalanishni tanlang.",
+    "scan_qr": "Olingan QR kodni telefon kamerasi ramkasiga joylashtirib, skanerlang.",
+    "go_back_mobile": "Mobil xizmatlarga qayting va Mobil ma’lumotlar parametrlarini tanlang.",
+    "toggle_data_roaming": "Ma’lumotlar roumingini yoqish yoki o‘chirish uchun tugmachani bosing.",
+    "youre_good": "Hammasi tayyor!"
   }
 }

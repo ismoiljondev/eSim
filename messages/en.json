@@ -143,6 +143,15 @@
     "troubleshooting": "Troubleshooting",
     "self_serve_guide": "Self-Serve Guide",
     "device_compatibility": "Device Compatibility",
-    "about_milliy_sim": "About MilliySim"
+    "about_milliy_sim": "About MilliySim",
+    "step_of": "Step {current} of {total}",
+    "go_to_settings": "Go To Settings.",
+    "select_mobile_services": "Select Mobile Services.",
+    "select_add_esim": "Select Add eSIM.",
+    "select_use_qr_code": "Select Use QR Code.",
+    "scan_qr": "Place the QR code you’ve received inside the phone camera frame to scan the code.",
+    "go_back_mobile": "Go back to Mobile Service and Select on Mobile Data Options.",
+    "toggle_data_roaming": "Select the toggle button next to Data Roaming to turn the function on or off.",
+    "youre_good": "You’re good to go!"
   }
 }
