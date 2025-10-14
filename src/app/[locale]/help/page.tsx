@@ -9,11 +9,11 @@ const HelpCenter = () => {
         <div className="flex flex-col container mx-auto w-full  items-center justify-start my-30">
             <Title title={t("help_center")} desc='' className="mb-8 text-start w-full justify-start items-start border rounded-xl p-2" />
             <Tabs defaultValue="set_up" className="w-full ">
-                <TabsList className="p-2 h-16">
-                    <TabsTrigger className="text-lg px-4 h-full cursor-pointer bg-white dark:bg-black mx-1" value="set_up">{t("set_up")}</TabsTrigger>
-                    <TabsTrigger className="text-lg px-4 h-full cursor-pointer bg-white dark:bg-black mx-1" value="troubleshooting">{t("troubleshooting")}</TabsTrigger>
+                <TabsList className="p-2 h-16 max-md:flex max-md:flex-col max-md:h-auto max-md:w-full max-md:gap-2">
+                    <TabsTrigger className="text-lg px-4 h-full max-md:w-full cursor-pointer bg-white dark:bg-black mx-1" value="set_up">{t("set_up")}</TabsTrigger>
+                    <TabsTrigger className="text-lg px-4 h-full max-md:w-full cursor-pointer bg-white dark:bg-black mx-1" value="troubleshooting">{t("troubleshooting")}</TabsTrigger>
 
-                    <TabsTrigger className="text-lg px-4 h-full cursor-pointer bg-white dark:bg-black mx-1" value="device_compatibility">{t("device_compatibility")}</TabsTrigger>
+                    <TabsTrigger className="text-lg px-4 h-full max-md:w-full cursor-pointer bg-white dark:bg-black mx-1" value="device_compatibility">{t("device_compatibility")}</TabsTrigger>
 
                 </TabsList>
                 <TabsContent value="set_up"><SetUp /></TabsContent>
