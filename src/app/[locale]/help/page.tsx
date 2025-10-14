@@ -12,15 +12,13 @@ const HelpCenter = () => {
                 <TabsList className="p-2 h-16">
                     <TabsTrigger className="text-lg px-4 h-full cursor-pointer bg-white dark:bg-black mx-1" value="set_up">{t("set_up")}</TabsTrigger>
                     <TabsTrigger className="text-lg px-4 h-full cursor-pointer bg-white dark:bg-black mx-1" value="troubleshooting">{t("troubleshooting")}</TabsTrigger>
-                    <TabsTrigger className="text-lg px-4 h-full cursor-pointer bg-white dark:bg-black mx-1" value="self_serve_guide">{t("self_serve_guide")}</TabsTrigger>
+
                     <TabsTrigger className="text-lg px-4 h-full cursor-pointer bg-white dark:bg-black mx-1" value="device_compatibility">{t("device_compatibility")}</TabsTrigger>
-                    <TabsTrigger className="text-lg px-4 h-full cursor-pointer bg-white dark:bg-black mx-1" value="about_milliy_sim">{t("about_milliy_sim")}</TabsTrigger>
+
                 </TabsList>
                 <TabsContent value="set_up"><SetUp /></TabsContent>
                 <TabsContent value="troubleshooting"><></></TabsContent>
-                <TabsContent value="self_serve_guide"><></></TabsContent>
                 <TabsContent value="device_compatibility"><></></TabsContent>
-                <TabsContent value="about_milliy_sim"><></></TabsContent>
             </Tabs>
         </div>
     )

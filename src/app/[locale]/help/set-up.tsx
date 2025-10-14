@@ -55,6 +55,44 @@ const SetUp = () => {
             title: t("youre_good")
         },
     ]
+    const dataAndroid = [
+        {
+            image: Android1,
+            title: t("go_to_settings")
+        },
+        {
+            image: Android2,
+            title: t("select_mobile_services")
+        },
+        {
+            image: Android3,
+            title: t("select_add_esim")
+        },
+        {
+            image: Android4,
+            title: t("select_use_qr_code")
+        },
+        {
+            image: Android5,
+            title: t("scan_qr")
+        },
+        {
+            image: Android6,
+            title: t("go_back_mobile")
+        },
+        {
+            image: Android7,
+            title: t("toggle_data_roaming")
+        },
+        {
+            image: Android8,
+            title: t("youre_good")
+        },
+        {
+            image: Android9,
+            title: t("youre_good")
+        },
+    ]
     return (
         <Tabs defaultValue="iOS" className="w-full mt-3">
             <TabsList className="p-2 h-11 mx-auto">
@@ -64,7 +102,7 @@ const SetUp = () => {
             <TabsContent value="iOS">
                 <SetUpCarousel data={dataiOS} />
             </TabsContent>
-            <TabsContent value="Android"><></></TabsContent>
+            <TabsContent value="Android">  <SetUpCarousel data={dataAndroid} /></TabsContent>
         </Tabs>
     )
 }
