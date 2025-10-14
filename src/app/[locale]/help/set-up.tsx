@@ -58,35 +58,35 @@ const SetUp = () => {
     const dataAndroid = [
         {
             image: Android1,
-            title: t("go_to_settings")
+            title: t("slide_two_fingers")
         },
         {
             image: Android2,
-            title: t("select_mobile_services")
+            title: t("select_settings_icon")
         },
         {
             image: Android3,
-            title: t("select_add_esim")
+            title: t("select_connections")
         },
         {
             image: Android4,
-            title: t("select_use_qr_code")
+            title: t("select_sim_manager")
         },
         {
             image: Android5,
-            title: t("scan_qr")
+            title: t("select_add_esim")
         },
         {
             image: Android6,
-            title: t("go_back_mobile")
+            title: t("select_qr_code")
         },
         {
             image: Android7,
-            title: t("toggle_data_roaming")
+            title: t("go_back_connections")
         },
         {
             image: Android8,
-            title: t("youre_good")
+            title: t("toggle_data_roaming")
         },
         {
             image: Android9,

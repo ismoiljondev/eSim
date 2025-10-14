@@ -148,10 +148,16 @@
     "step_of": "Bosqich {current} / {total}",
     "go_to_settings": "Sozlamalarga o‘ting.",
     "select_mobile_services": "Mobil xizmatlarni tanlang.",
-    "select_add_esim": "eSIM qo‘shishni tanlang.",
     "select_use_qr_code": "QR koddan foydalanishni tanlang.",
     "scan_qr": "Olingan QR kodni telefon kamerasi ramkasiga joylashtirib, skanerlang.",
     "go_back_mobile": "Mobil xizmatlarga qayting va Mobil ma’lumotlar parametrlarini tanlang.",
+    "slide_two_fingers": "Ekranning yuqori qismidan ikki barmog‘ingizni pastga suring.",
+    "select_settings_icon": "Sozlamalar belgisini tanlang.",
+    "select_connections": "Ulanishlar bo‘limini tanlang.",
+    "select_sim_manager": "SIM menejerini tanlang.",
+    "select_add_esim": "eSIM qo‘shishni tanlang.",
+    "select_qr_code": "QR kodni tanlang.",
+    "go_back_connections": "Ulanishlarga qayting va Mobil tarmoqlarni tanlang.",
     "toggle_data_roaming": "Ma’lumotlar roumingini yoqish yoki o‘chirish uchun tugmachani bosing.",
     "youre_good": "Hammasi tayyor!"
   }

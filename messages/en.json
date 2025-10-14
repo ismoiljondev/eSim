@@ -147,10 +147,16 @@
     "step_of": "Step {current} of {total}",
     "go_to_settings": "Go To Settings.",
     "select_mobile_services": "Select Mobile Services.",
-    "select_add_esim": "Select Add eSIM.",
     "select_use_qr_code": "Select Use QR Code.",
     "scan_qr": "Place the QR code you’ve received inside the phone camera frame to scan the code.",
     "go_back_mobile": "Go back to Mobile Service and Select on Mobile Data Options.",
+    "slide_two_fingers": "Slide two fingers downwards starting from the top of the screen.",
+    "select_settings_icon": "Select the Settings icon.",
+    "select_connections": "Select Connections.",
+    "select_sim_manager": "Select SIM manager.",
+    "select_add_esim": "Select Add eSIM.",
+    "select_qr_code": "Select QR code.",
+    "go_back_connections": "Go back to Connections and Select Mobile networks.",
     "toggle_data_roaming": "Select the toggle button next to Data Roaming to turn the function on or off.",
     "youre_good": "You’re good to go!"
   }
