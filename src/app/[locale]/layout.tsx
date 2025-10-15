@@ -7,7 +7,7 @@ import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { routing } from "@/i18n/routing";
 import { notFound } from "next/navigation";
 import Footer from "@/components/footer";
-
+import 'react-international-phone/style.css';
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],

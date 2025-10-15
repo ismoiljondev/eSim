@@ -188,6 +188,17 @@
     "benefit_2_title": "Komissiya daromadi",
     "benefit_2_desc": "Hozir ro‘yxatdan o‘ting va hamkorlik havolangiz orqali amalga oshirilgan har bir sotuvdan 5% komissiya olishni boshlang.",
     "benefit_3_title": "Natijani kuzatish",
-    "benefit_3_desc": "Avtomatik ravishda tarmoq harakati, tranzaksiyalar va sotuvlarni kuzatish sizga natijalarni tahlil qilish va samaradorlikni oshirish imkonini beradi."
+    "benefit_3_desc": "Avtomatik ravishda tarmoq harakati, tranzaksiyalar va sotuvlarni kuzatish sizga natijalarni tahlil qilish va samaradorlikni oshirish imkonini beradi.",
+    "contact_title": "Biz bilan bog‘laning",
+    "partner_title": "MilliySim bilan hamkor bo‘ling",
+    "partner_desc": "Quyidagi shaklni to‘ldirib, biz bilan bog‘laning va hamkorlik jarayonini boshlang.",
+    "full_name": "To‘liq ism",
+    "email": "Elektron pochta",
+    "phone_number": "Telefon raqami",
+    "company": "Kompaniya",
+    "country": "Mamlakat",
+    "job_role": "Lavozim",
+    "message": "Xabar",
+    "send_message": "Xabar yuborish"
   }
 }

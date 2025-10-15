@@ -5,6 +5,7 @@ import Benefits from './benefits'
 import Image from 'next/image'
 import partnerships from '@/media/Premium_Vector___Office_situation_partnership_flat_illustration_-removebg-preview.png'
 import why_esim from '@/media/why_esim.png'
+import GetInTouch from './get-in-touch'
 const Partnership = () => {
     const t = useTranslations("partnership")
     return (
@@ -23,6 +24,7 @@ const Partnership = () => {
                 </div>
             </div>
             <Benefits />
+            <GetInTouch />
         </div>
     )
 }

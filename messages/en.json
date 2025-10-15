@@ -188,6 +188,17 @@
     "benefit_2_title": "Earn Commission",
     "benefit_2_desc": "Sign up now and begin earning a 5% commission on each sale completed via your affiliate link.",
     "benefit_3_title": "Track Performance",
-    "benefit_3_desc": "Automated monitoring of traffic, transactions, and sales allows you to assess and enhance your performance."
+    "benefit_3_desc": "Automated monitoring of traffic, transactions, and sales allows you to assess and enhance your performance.",
+    "contact_title": "Get in touch",
+    "partner_title": "Become a Partner with MilliySim",
+    "partner_desc": "Fill out the form below to contact us and start the partnership process.",
+    "full_name": "Full Name",
+    "email": "Email",
+    "phone_number": "Phone Number",
+    "company": "Company",
+    "country": "Country",
+    "job_role": "Job Role",
+    "message": "Message",
+    "send_message": "Send Message"
   }
 }
