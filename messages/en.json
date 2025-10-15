@@ -173,5 +173,21 @@
     "esim_usage_answer": "You can use your MilliySim eSIM multiple times, depending on your plan. It can be reactivated and used for various trips or data plans without needing a new SIM card.\n\nYour eSIM can only be activated on one device.\nIf you delete the eSIM from your phone, you cannot reuse it.\nYou cannot scan the QR code on two devices, but on specific plans, you can share data between devices by adjusting the settings on your phone.",
     "delete_data_question": "How do I request MilliySim to delete my data?",
     "delete_data_answer": "1. Sign in to your MilliySim account on either the web or mobile app.\n\n2. Go to the Account Management page and click on \"Delete my account\".\n\n3. Confirm the deletion — all your data will be deleted, and you will no longer have access to your account."
+  },
+  "partnership": {
+    "partners_title": "MilliySim for Partners",
+    "partners_description": "Sign up for our Partner Program to receive 5% commission on sales. Promote your link to benefit from automated performance tracking. With our eSIMs, you can increase your revenue by making communication easier between your visitors and followers.",
+
+    "why_partner_title": "Why become a MilliySim Partner?",
+    "why_partner_1": "By partnering with MilliySim, you will be offering the best eSIM solution to your followers, from one of the largest eSIM companies in the world. They’ll be grateful for helping them save on connectivity costs.",
+    "why_partner_2": "A 24/7 support team and pre-built brand assets are available for you to use.",
+    "why_partner_3": "Earn attractive commissions by referring your readers, followers, site visitors, or customers to MilliySim to purchase eSIMs.",
+    "benefits_title": "Benefits",
+    "benefit_1_title": "Global Coverage",
+    "benefit_1_desc": "Help your followers and visitors from any part of the world connect via eSIM while traveling to over 190+ countries and regions.",
+    "benefit_2_title": "Earn Commission",
+    "benefit_2_desc": "Sign up now and begin earning a 5% commission on each sale completed via your affiliate link.",
+    "benefit_3_title": "Track Performance",
+    "benefit_3_desc": "Automated monitoring of traffic, transactions, and sales allows you to assess and enhance your performance."
   }
 }

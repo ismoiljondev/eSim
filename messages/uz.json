@@ -174,5 +174,20 @@
     "esim_usage_answer": "MilliySim eSIM’ni rejangizga qarab bir necha marta ishlatishingiz mumkin. Uni qayta faollashtirib, turli sayohatlar yoki ma’lumot rejalari uchun yangi SIM kartasiz ishlatish mumkin.\n\nSizning eSIM faqat bitta qurilmada faollashtiriladi.\nAgar eSIM’ni telefoningizdan o‘chirib tashlasangiz, uni qayta ishlatib bo‘lmaydi.\nQR kodni ikkita qurilmada skanerlab bo‘lmaydi, biroq ba’zi tariflarda telefon sozlamalari orqali ma’lumotni bir nechta qurilma o‘rtasida ulashish mumkin.",
     "delete_data_question": "MilliySim’dan ma’lumotlarimni qanday o‘chirib tashlashim mumkin?",
     "delete_data_answer": "1. MilliySim akkauntingizga veb-sayt yoki mobil ilova orqali kiring.\n\n2. Hisob boshqaruvi sahifasiga o‘ting va \"Hisobni o‘chirish\" tugmasini bosing.\n\n3. O‘chirishni tasdiqlang — barcha ma’lumotlaringiz o‘chiriladi va akkauntingizga endi kira olmaysiz."
+  },
+  "partnership": {
+    "partners_title": "MilliySim hamkorlari uchun",
+    "partners_description": "Hamkorlik dasturimizga qo‘shiling va har bir savdodan 5% komissiya oling. Sizga berilgan havolani targ‘ib qiling va avtomatik natija kuzatuvidan foydalaning. Bizning eSIM xizmatlarimiz yordamida siz mehmonlaringiz va obunachilaringiz o‘rtasidagi aloqa jarayonini soddalashtirib, daromadingizni oshirishingiz mumkin.",
+    "why_partner_title": "Nega MilliySim hamkori bo‘lish kerak?",
+    "why_partner_1": "MilliySim bilan hamkorlik qilgan holda, siz izdoshlarga dunyodagi eng yirik eSIM kompaniyalaridan biri tomonidan taklif etilgan eng yaxshi eSIM yechimini taqdim etasiz. Ular sizga aloqa xarajatlarini tejashga yordam berganingiz uchun minnatdor bo‘lishadi.",
+    "why_partner_2": "24/7 ishlaydigan yordam jamoasi va tayyor brend materiallar siz uchun mavjud.",
+    "why_partner_3": "O‘quvchilar, izdoshlari, sayt tashrif buyuruvchilari yoki mijozlarni MilliySim orqali eSIM sotib olishga yo‘naltirib, jozibador komissiya daromadiga ega bo‘ling.",
+    "benefits_title": "Afzalliklar",
+    "benefit_1_title": "Global qamrov",
+    "benefit_1_desc": "Izdoshlaringiz va tashrif buyuruvchilaringizga dunyoning istalgan nuqtasidan sayohat paytida 190+ mamlakat va hududlarda eSIM orqali ulanib turishga yordam bering.",
+    "benefit_2_title": "Komissiya daromadi",
+    "benefit_2_desc": "Hozir ro‘yxatdan o‘ting va hamkorlik havolangiz orqali amalga oshirilgan har bir sotuvdan 5% komissiya olishni boshlang.",
+    "benefit_3_title": "Natijani kuzatish",
+    "benefit_3_desc": "Avtomatik ravishda tarmoq harakati, tranzaksiyalar va sotuvlarni kuzatish sizga natijalarni tahlil qilish va samaradorlikni oshirish imkonini beradi."
   }
 }
