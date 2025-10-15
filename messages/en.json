@@ -159,5 +159,19 @@
     "go_back_connections": "Go back to Connections and Select Mobile networks.",
     "toggle_data_roaming": "Select the toggle button next to Data Roaming to turn the function on or off.",
     "youre_good": "You’re good to go!"
+  },
+  "toubleshooting": {
+    "delete_esim_question": "How do I delete my MilliySim eSIM once I’ve used up my data?",
+    "delete_esim_answer": "To delete your MilliySim eSIM after using up your data, simply go to your device's settings, select the eSIM, and choose the option to remove or delete it. There is no need to delete your eSIM once you have finished using it. However, if you want to delete it, you can go to your phone’s SIM card manager.",
+    "lost_qr_question": "What should I do if I’ve deleted or lost the QR code for my eSIM?",
+    "lost_qr_answer": "If you've lost or deleted the QR code for your eSIM, you can request a new one through your MilliySim account or contact customer support for assistance. If you cannot find the QR code or have deleted it by mistake, please get in touch with us by sending an email to support@milliysim.uz or via our online chat, and we’ll resend the code to you. Our customer support team is available 24/7. There’s a solution for everything, but it’s best to try not to lose your QR code since it’s essential for installing your eSIM.",
+    "qr_not_working_question": "My QR code isn’t working, what should I do?",
+    "qr_not_working_answer": "If you're having difficulty scanning your QR code, we've made a checklist to help you figure out the issue:\n\nStep 1: Confirm that your phone is compatible with eSIMs. If you are unsure if it’s compatible, please refer to one of our guides.\n\nStep 2: Confirm that you are connected to Wi-Fi, as you cannot install a MilliySim eSIM without Wi-Fi.\n\nStep 3: Try setting up your eSIM manually. Simply enter the details provided.\n\nStep 4: Did you already scan the QR code? If so, you may have already installed the eSIM successfully. To check, go into settings, and navigate to your Cellular/SIM card settings.\n\nStep 5: If none of these steps worked, feel free to reach out to our 24/7 support team! You can reach out via email or live chat.",
+    "esim_qr_arrival_question": "How long does it take for an eSIM QR code to arrive?",
+    "esim_qr_arrival_answer": "The eSIM QR code typically arrives within a few minutes to an hour after purchase, depending on the provider.\nCheck your email or account for updates.\n\nA MilliySim eSIM QR code is sent out immediately after you buy it.\nYou should receive an email within a couple of minutes.\n\nIf you don’t see the email in your inbox, check your spam folder.\nIf you haven’t received your code after over 10 minutes, contact us via our online chat, and we’ll sort it out for you.",
+    "esim_usage_question": "How many times can I use my eSIM?",
+    "esim_usage_answer": "You can use your MilliySim eSIM multiple times, depending on your plan. It can be reactivated and used for various trips or data plans without needing a new SIM card.\n\nYour eSIM can only be activated on one device.\nIf you delete the eSIM from your phone, you cannot reuse it.\nYou cannot scan the QR code on two devices, but on specific plans, you can share data between devices by adjusting the settings on your phone.",
+    "delete_data_question": "How do I request MilliySim to delete my data?",
+    "delete_data_answer": "1. Sign in to your MilliySim account on either the web or mobile app.\n\n2. Go to the Account Management page and click on \"Delete my account\".\n\n3. Confirm the deletion — all your data will be deleted, and you will no longer have access to your account."
   }
 }

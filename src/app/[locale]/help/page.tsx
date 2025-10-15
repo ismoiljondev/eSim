@@ -3,6 +3,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { useTranslations } from 'next-intl'
 import React from 'react'
 import SetUp from './set-up'
+import Troubleshooting from './troubleshooting'
 const HelpCenter = () => {
     const t = useTranslations("help")
     return (
@@ -17,7 +18,7 @@ const HelpCenter = () => {
 
                 </TabsList>
                 <TabsContent value="set_up"><SetUp /></TabsContent>
-                <TabsContent value="troubleshooting"><></></TabsContent>
+                <TabsContent value="troubleshooting"><Troubleshooting /></TabsContent>
                 <TabsContent value="device_compatibility"><></></TabsContent>
             </Tabs>
         </div>
