@@ -2,8 +2,14 @@
 
 import { useTranslations } from "next-intl";
 import { PlaceholdersAndVanishInput } from "../ui/placeholders-and-vanish-input";
+import { cn } from "@/lib/utils";
 
-export function SearchInput() {
+
+type Props = {
+    className?: string
+}
+
+export function SearchInput({ className }: Props) {
     const t = useTranslations("countries")
     const placeholders = [
         t("search_destination"),
@@ -23,7 +29,7 @@ export function SearchInput() {
         console.log("submitted");
     };
     return (
-        <div className="mb-4 w-full">
+        <div className={cn(`mb-4 w-full`, className)}>
             {/* <h2 className="mb-10 sm:mb-20 text-xl text-center sm:text-5xl dark:text-white text-black">
                 Ask Aceternity UI Anything
             </h2> */}

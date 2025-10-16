@@ -1,6 +1,7 @@
 "use client";
 import { useTranslations } from "next-intl";
 import { TypewriterEffectSmooth } from "../ui/typewriter-effect";
+import { SearchInput } from "../plans/search-input";
 export function Showcase() {
     const t = useTranslations("showcase");
     const words = [
@@ -27,7 +28,7 @@ export function Showcase() {
                     Signup
                 </button>
             </div> */}
-            <p className="text-neutral-600 dark:text-neutral-200 text-2xl max-md:text-xl max-sm:text-sm text-center max-sm:w-4/5">{t("pricing")}</p>
+            <SearchInput className="mt-5" />
         </div>
     );
 }
