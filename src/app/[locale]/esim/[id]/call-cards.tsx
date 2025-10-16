@@ -34,14 +34,14 @@ const CallCards = () => {
                             </div>
                         </div>
                         <div className="flex flex-col items-end">
-                            <p className='text-3xl'>{item.price}</p>
+                            <p className='text-3xl text-orange-600 '>{item.price}</p>
                             <p className='line-through text-gray-400 text-sm'>{item.old_price}</p>
                             <p className='text-2xl'>{item.minute} {t("minutes")}</p>
                             <p className='text-2xl'>{item.sms} {t("sms")}</p>
                             <p className='text-2xl'>{item.days} {t("days")}</p>
                         </div>
                     </div>
-                    <Button className='w-fit justify-self-end self-end cursor-pointer'>{t("buy_now")}</Button>
+                    <Button className='w-fit justify-self-end self-end cursor-pointer bg-orange-600 text-white'>{t("buy_now")}</Button>
                 </div>
             </Link>
         )

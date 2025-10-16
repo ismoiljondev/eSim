@@ -9,14 +9,15 @@ import {
 } from "../ui/animated-modal";
 import { useTranslations } from "next-intl";
 import Models from "./models";
+import { Smartphone } from "lucide-react";
 
 
 export function DeviceModal() {
     const t = useTranslations("device-modal")
     return (
         <Modal>
-            <ModalTrigger className="bg-black dark:bg-white dark:text-black text-white flex justify-center group/modal-btn ">
-                {t("device_compatibility")}
+            <ModalTrigger className="bg-black dark:bg-white dark:text-black text-white flex gap-1 cursor-pointer justify-center group/modal-btn ">
+                <Smartphone />{" "} <p>{t("device_compatibility")}</p>
             </ModalTrigger>
             <ModalBody>
                 <ModalContent className="flex flex-col gap-2">
