@@ -227,5 +227,24 @@
     "join_us_title": "Join Us",
     "join_us_desc": "Choose your way to stay connected — MilliySim gives you freedom, everywhere.",
     "activate_esim": "Activate eSIM"
+  },
+  "contact": {
+    "title": "Contact Us — MilliySim",
+    "subtitle": "We’re always happy to connect with you — wherever you are!",
+    "telegram_title": "Live Chat on Telegram",
+    "telegram_desc": "Chat directly with our support team in Telegram — fast, easy, and 24/7.",
+    "telegram_button": "Open Telegram Chat",
+    "email_title": "Email Us",
+    "email_desc": "Prefer email? No problem — write to us anytime, and we’ll reply as soon as possible.",
+    "faq_title": "FAQ",
+    "faq_desc": "Find quick answers to the most common questions about eSIM and SIM setup.",
+    "faq_button": "Visit FAQ",
+    "help_title": "Need some help?",
+    "help_desc": "For all inquiries, please email us using the form below. Our team is there for you 24/7!",
+    "full_name": "Full Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "send_message": "Send Message"
   }
 }

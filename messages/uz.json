@@ -227,5 +227,24 @@
     "join_us_title": "Bizga qo‘shiling",
     "join_us_desc": "Aloqada bo‘lish yo‘lingizni tanlang — MilliySim sizga har joyda erkinlik beradi.",
     "activate_esim": "eSIM’ni faollashtirish"
+  },
+  "contact": {
+    "title": "Biz bilan bog‘laning — MilliySim",
+    "subtitle": "Biz siz bilan dunyoning istalgan nuqtasida aloqada bo‘lishdan xursandmiz!",
+    "telegram_title": "Telegram’da jonli chat",
+    "telegram_desc": "Telegram orqali qo‘llab-quvvatlash jamoamiz bilan to‘g‘ridan-to‘g‘ri yozishing — tez, oson va 24/7.",
+    "telegram_button": "Telegram chatni ochish",
+    "email_title": "Bizga email yozing",
+    "email_desc": "Email orqali bog‘lanishni afzal ko‘rasizmi? Muammo yo‘q — istalgan paytda yozing, imkon qadar tez javob beramiz.",
+    "faq_title": "Ko‘p so‘raladigan savollar",
+    "faq_desc": "eSIM va SIM o‘rnatish bo‘yicha eng ko‘p beriladigan savollarga tezkor javoblarni toping.",
+    "faq_button": "FAQ sahifasiga o‘tish",
+    "help_title": "Yordam kerakmi?",
+    "help_desc": "Barcha murojaatlar uchun quyidagi shakl orqali bizga yozing. Jamoamiz siz uchun 24/7 tayyor!",
+    "full_name": "To‘liq ism",
+    "email": "Email",
+    "subject": "Mavzu",
+    "message": "Xabar",
+    "send_message": "Xabar yuborish"
   }
 }
