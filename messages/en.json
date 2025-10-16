@@ -247,5 +247,14 @@
     "subject": "Subject",
     "message": "Message",
     "send_message": "Send Message"
+  },
+  "steps": {
+    "title": "How does the eSIM work?",
+    "step1_title": "Pick the eSIM plan",
+    "step1_desc": "From unlimited data to fixed data and even plans with calls and hotspots, we have the right plan for you.",
+    "step2_title": "Pay for your order",
+    "step2_desc": "Choose the plan that suits you best and buy your eSIM card from our website or app. You will receive an email with your QR code.",
+    "step3_title": "Scan the QR code",
+    "step3_desc": "It's easy. Just scan the QR code we send you and turn on data roaming from your settings. Now you can enjoy it on your trip."
   }
 }

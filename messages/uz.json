@@ -247,5 +247,14 @@
     "subject": "Mavzu",
     "message": "Xabar",
     "send_message": "Xabar yuborish"
+  },
+  "steps": {
+    "title": "eSIM qanday ishlaydi?",
+    "step1_title": "eSIM rejasini tanlang",
+    "step1_desc": "Cheksiz ma'lumotlardan tortib, belgilangan miqdordagi ma'lumotlar va hatto qo‘ng‘iroqlar hamda hotspotlarni o‘z ichiga olgan rejalar – siz uchun mos variant mavjud.",
+    "step2_title": "Buyurtmangiz uchun to‘lang",
+    "step2_desc": "Sizga mos rejani tanlang va eSIM kartani vebsaytimiz yoki ilovamiz orqali xarid qiling. Siz QR kodi bilan elektron pochta olasiz.",
+    "step3_title": "QR kodni skaner qiling",
+    "step3_desc": "Bu juda oson. Biz yuborgan QR kodni skaner qiling va sozlamalarda ma'lumotlar roumingini yoqing. Endi safaringizda bemalol foydalanishingiz mumkin."
   }
 }
