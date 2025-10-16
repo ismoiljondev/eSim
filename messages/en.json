@@ -68,6 +68,7 @@
   "contact_us": "Contact Us",
   "esim": {
     "country": "Country",
+    "unlimited": "Unlimited",
     "regions": "Regions",
     "global": "Global",
     "select_destination": "Select your destination",

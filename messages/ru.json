@@ -68,6 +68,7 @@
   "contact_us": "Свяжитесь с нами",
   "esim": {
     "country": "Страна",
+    "unlimited": "Безлимитный",
     "regions": "Регионы",
     "global": "Глобальный",
     "select_destination": "Выберите страну для eSIM",

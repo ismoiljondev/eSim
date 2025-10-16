@@ -69,6 +69,7 @@
   "contact_us": "Biz bilan bog‘laning",
   "esim": {
     "country": "Mamlakat",
+    "unlimited": "Cheksiz",
     "regions": "Hududlar",
     "global": "Global",
     "select_destination": "eSIM kerak bo‘lgan mamlakatni tanlang",
