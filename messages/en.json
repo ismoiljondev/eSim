@@ -200,5 +200,32 @@
     "job_role": "Job Role",
     "message": "Message",
     "send_message": "Send Message"
+  },
+  "about": {
+    "title": "About MilliySim",
+    "subtitle": "Stay Connected — Anywhere, Any Way",
+    "description": "MilliySim combines eSIM and physical SIM cards to keep you connected everywhere. We provide mobile internet and voice services in 180+ countries — with no roaming and full flexibility.",
+    "mission_title": "Our Mission",
+    "mission_desc": "To give people the freedom to connect anytime, anywhere, in any format — whether through eSIM or traditional SIM cards.",
+    "values_title": "Our Values",
+    "values": {
+      "freedom": "Freedom — choose how you connect.",
+      "convenience": "Convenience — activate eSIM in 5 minutes or get a physical SIM delivered.",
+      "reliability": "Reliability — powered by top global networks.",
+      "innovation": "Innovation — advanced connectivity solutions with global reach."
+    },
+    "why_choose_title": "Why Choose MilliySim",
+    "why_choose": {
+      "coverage": "Coverage in 180+ countries",
+      "activation": "eSIM activation in minutes or physical SIM for any device",
+      "no_roaming": "No roaming, no hidden fees",
+      "flexible_plans": "Flexible data and voice plans",
+      "support": "24/7 customer support"
+    },
+    "story_title": "Our Story",
+    "story_desc": "MilliySim was created to make global communication simple and borderless. We connect people, travelers, and businesses worldwide — with the best of both worlds: eSIM and physical SIM.",
+    "join_us_title": "Join Us",
+    "join_us_desc": "Choose your way to stay connected — MilliySim gives you freedom, everywhere.",
+    "activate_esim": "Activate eSIM"
   }
 }

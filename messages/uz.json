@@ -200,5 +200,32 @@
     "job_role": "Lavozim",
     "message": "Xabar",
     "send_message": "Xabar yuborish"
+  },
+  "about": {
+    "title": "MilliySim haqida",
+    "subtitle": "Dunyoda istalgan joyda, istalgan usulda aloqada bo‘ling",
+    "description": "MilliySim sizni har doim aloqada saqlash uchun eSIM va fizik SIM kartalarni birlashtiradi. Biz 180+ mamlakatda mobil internet va ovozli xizmatlarni roumingsiz va to‘liq moslashuvchanlik bilan taqdim etamiz.",
+    "mission_title": "Bizning missiyamiz",
+    "mission_desc": "Odamlarga istalgan vaqtda, istalgan joyda va istalgan shaklda — eSIM yoki an’anaviy SIM karta orqali — bog‘lanish erkinligini taqdim etish.",
+    "values_title": "Bizning qadriyatlarimiz",
+    "values": {
+      "freedom": "Erkinlik — qaysi usulda bog‘lanishni o‘zingiz tanlang.",
+      "convenience": "Qulaylik — eSIM’ni 5 daqiqada faollashtiring yoki fizik SIM’ni yetkazib oling.",
+      "reliability": "Ishonchlilik — eng ilg‘or global tarmoqlar bilan ishlaydi.",
+      "innovation": "Innovatsiya — global qamrovli ilg‘or aloqa yechimlari."
+    },
+    "why_choose_title": "Nega MilliySim?",
+    "why_choose": {
+      "coverage": "180+ mamlakatda qamrov",
+      "activation": "Bir necha daqiqada eSIM faollashtirish yoki istalgan qurilma uchun fizik SIM",
+      "no_roaming": "Rouming yo‘q, yashirin to‘lovlar yo‘q",
+      "flexible_plans": "Moslashuvchan internet va ovozli rejalar",
+      "support": "24/7 mijozlarni qo‘llab-quvvatlash"
+    },
+    "story_title": "Bizning hikoyamiz",
+    "story_desc": "MilliySim global aloqani soddalashtirish va chegarasiz qilish uchun yaratilgan. Biz insonlar, sayohatchilar va bizneslarni butun dunyo bo‘ylab — eSIM va fizik SIM orqali bog‘laymiz.",
+    "join_us_title": "Bizga qo‘shiling",
+    "join_us_desc": "Aloqada bo‘lish yo‘lingizni tanlang — MilliySim sizga har joyda erkinlik beradi.",
+    "activate_esim": "eSIM’ni faollashtirish"
   }
 }
