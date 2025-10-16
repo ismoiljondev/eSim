@@ -3,12 +3,12 @@
   "travel_next": "Куда вы поедете дальше?",
   "popular_destinations": "Ниже найдите популярные направления и выберите план для них",
   "how_milliy_sim_works": "Как работает MilliySim?",
-  "milliy_sim_easy": "Мы сделали так, чтобы вам было легко подключиться в более чем 200 странах и регионах",
+  "milliy_sim_easy": "Мы сделали так, чтобы вам было легко подключиться в более чем 190 странах и регионах",
   "why_milliy_sim": "Nega MilliySim?",
-  "why_milliy_sim_desc": "MilliySim — bu 200+ mamlakat va hududlarda doimo aloqada bo‘lishingizga imkon beruvchi global eSIM provayderi. Biz eSIM qo‘llab-quvvatlanadigan qurilmalaringiz uchun eng arzon va moslashuvchan internet, ovozli qo‘ng‘iroq va cheksiz tarif rejalarini taklif qilamiz.",
+  "why_milliy_sim_desc": "MilliySim — bu 190+ mamlakat va hududlarda doimo aloqada bo‘lishingizga imkon beruvchi global eSIM provayderi. Biz eSIM qo‘llab-quvvatlanadigan qurilmalaringiz uchun eng arzon va moslashuvchan internet, ovozli qo‘ng‘iroq va cheksiz tarif rejalarini taklif qilamiz.",
   "about_us": {
     "title": "Как работает MilliySim?",
-    "intro": "Мы сделали так, чтобы вам было легко подключиться в более чем 200 странах и регионах.",
+    "intro": "Мы сделали так, чтобы вам было легко подключиться в более чем 190 странах и регионах.",
     "step1": {
       "title": "Активируйте eSIM за 1 минуту",
       "desc": "Сканируйте QR-код и подключайтесь без визита в салон. Быстро, просто и безопасно."
@@ -19,7 +19,7 @@
     },
     "step3": {
       "title": "Работает по всему миру",
-      "desc": "Более 200 стран и регионов. Без роуминга и лишних настроек."
+      "desc": "Более 190 стран и регионов. Без роуминга и лишних настроек."
     },
     "step4": {
       "title": "Контроль через Telegram-бота",
@@ -44,7 +44,7 @@
     "word3": "в любой ",
     "word4": "точке мира",
     "word5": "с MilliySim",
-    "pricing": "Более чем в 200 странах и регионах, начиная всего от $2",
+    "pricing": "Более чем в 190 странах и регионах, начиная всего от $2",
     "freedom": "Путь к свободе начинается отсюда"
   },
   "countries": {
@@ -203,7 +203,7 @@
   "about": {
     "title": "О MilliySim",
     "subtitle": "Оставайтесь на связи — где угодно и как угодно",
-    "description": "MilliySim объединяет eSIM и физические SIM-карты, чтобы вы всегда оставались на связи. Мы предоставляем мобильный интернет и голосовую связь в 180+ странах без роуминга и с полной гибкостью.",
+    "description": "MilliySim объединяет eSIM и физические SIM-карты, чтобы вы всегда оставались на связи. Мы предоставляем мобильный интернет и голосовую связь в 190+ странах без роуминга и с полной гибкостью.",
     "mission_title": "Наша миссия",
     "mission_desc": "Дать людям свободу подключаться в любое время, в любом месте и в любом формате — через eSIM или традиционную SIM-карту.",
     "values_title": "Наши ценности",
@@ -215,7 +215,7 @@
     },
     "why_choose_title": "Почему MilliySim?",
     "why_choose": {
-      "coverage": "Покрытие в 180+ странах",
+      "coverage": "Покрытие в 190+ странах",
       "activation": "Активация eSIM за несколько минут или физическая SIM для любого устройства",
       "no_roaming": "Без роуминга и скрытых платежей",
       "flexible_plans": "Гибкие тарифы для данных и звонков",

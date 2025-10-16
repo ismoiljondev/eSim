@@ -3,12 +3,12 @@
   "travel_next": "Where are you travelling next?",
   "popular_destinations": "Find below the popular destinations and pick a plan for it",
   "how_milliy_sim_works": "How MilliySim Works?",
-  "milliy_sim_easy": "We have made it easy for you to get connected in 200+ countries and regions",
+  "milliy_sim_easy": "We have made it easy for you to get connected in 190+ countries and regions",
   "why_milliy_sim": "Why MilliySim?",
-  "why_milliy_sim_desc": "MilliySim is a global eSIM provider that allows you to stay connected in 200+ countries and regions. We offer the most affordable and flexible data, voice and unlimited plans for your eSIM-enabled devices.",
+  "why_milliy_sim_desc": "MilliySim is a global eSIM provider that allows you to stay connected in 190+ countries and regions. We offer the most affordable and flexible data, voice and unlimited plans for your eSIM-enabled devices.",
   "about_us": {
     "title": "How does MilliySim work?",
-    "intro": "We made it easy for you to connect in more than 200 countries and regions.",
+    "intro": "We made it easy for you to connect in more than 190 countries and regions.",
     "step1": {
       "title": "Activate your eSIM in 1 minute",
       "desc": "Scan the QR code and connect without visiting a store. Fast, simple, and secure."
@@ -19,7 +19,7 @@
     },
     "step3": {
       "title": "Works worldwide",
-      "desc": "Available in 200+ countries and regions. No roaming, no extra settings needed."
+      "desc": "Available in 190+ countries and regions. No roaming, no extra settings needed."
     },
     "step4": {
       "title": "Manage via Telegram bot",
@@ -44,7 +44,7 @@
     "word3": "anywhere",
     "word4": "with",
     "word5": "MilliySim.",
-    "pricing": "200+ countries and regions starting from only $2",
+    "pricing": "190+ countries and regions starting from only $2",
     "freedom": "The road to freedom starts from here"
   },
   "countries": {
@@ -204,7 +204,7 @@
   "about": {
     "title": "About MilliySim",
     "subtitle": "Stay Connected — Anywhere, Any Way",
-    "description": "MilliySim combines eSIM and physical SIM cards to keep you connected everywhere. We provide mobile internet and voice services in 180+ countries — with no roaming and full flexibility.",
+    "description": "MilliySim combines eSIM and physical SIM cards to keep you connected everywhere. We provide mobile internet and voice services in 190+ countries — with no roaming and full flexibility.",
     "mission_title": "Our Mission",
     "mission_desc": "To give people the freedom to connect anytime, anywhere, in any format — whether through eSIM or traditional SIM cards.",
     "values_title": "Our Values",
@@ -216,7 +216,7 @@
     },
     "why_choose_title": "Why Choose MilliySim",
     "why_choose": {
-      "coverage": "Coverage in 180+ countries",
+      "coverage": "Coverage in 190+ countries",
       "activation": "eSIM activation in minutes or physical SIM for any device",
       "no_roaming": "No roaming, no hidden fees",
       "flexible_plans": "Flexible data and voice plans",

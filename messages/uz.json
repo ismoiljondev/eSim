@@ -12,12 +12,12 @@
   "travel_next": "Keyingi safaringiz qayerga?",
   "popular_destinations": "Quyida mashhur yo‘nalishlarni toping va ular uchun reja tanlang",
   "how_milliy_sim_works": "MilliySim qanday ishlaydi?",
-  "milliy_sim_easy": "Biz siz uchun 200+ mamlakat va hududlarda ulanishingizni osonlashtirdik",
+  "milliy_sim_easy": "Biz siz uchun 190+ mamlakat va hududlarda ulanishingizni osonlashtirdik",
   "why_milliy_sim": "Nega MilliySim?",
-  "why_milliy_sim_desc": "MilliySim — bu 200+ mamlakat va hududlarda doimo aloqada bo‘lishingizga imkon beruvchi global eSIM provayderi. Biz eSIM qo‘llab-quvvatlanadigan qurilmalaringiz uchun eng arzon va moslashuvchan internet, ovozli qo‘ng‘iroq va cheksiz tarif rejalarini taklif qilamiz.",
+  "why_milliy_sim_desc": "MilliySim — bu 190+ mamlakat va hududlarda doimo aloqada bo‘lishingizga imkon beruvchi global eSIM provayderi. Biz eSIM qo‘llab-quvvatlanadigan qurilmalaringiz uchun eng arzon va moslashuvchan internet, ovozli qo‘ng‘iroq va cheksiz tarif rejalarini taklif qilamiz.",
   "about_us": {
     "title": "MilliySim qanday ishlaydi?",
-    "intro": "Biz sizga 200 dan ortiq mamlakat va hududlarda ulanishni osonlashtirdik.",
+    "intro": "Biz sizga 190 dan ortiq mamlakat va hududlarda ulanishni osonlashtirdik.",
     "step1": {
       "title": "eSIM’ni 1 daqiqada faollashtiring",
       "desc": "QR-kodni skanerlang va salonga bormasdan ulanib oling. Tez, oddiy va xavfsiz."
@@ -28,7 +28,7 @@
     },
     "step3": {
       "title": "Butun dunyoda ishlaydi",
-      "desc": "200 dan ortiq mamlakat va hududlar. Rouming yo‘q, qo‘shimcha sozlamalarsiz."
+      "desc": "190 dan ortiq mamlakat va hududlar. Rouming yo‘q, qo‘shimcha sozlamalarsiz."
     },
     "step4": {
       "title": "Telegram-bot orqali nazorat",
@@ -45,7 +45,7 @@
     "word3": "joyida",
     "word4": "aloqada",
     "word5": "MilliySim",
-    "pricing": "200+ mamlakat va hududlarda, atigi $2 dan boshlab",
+    "pricing": "190+ mamlakat va hududlarda, atigi $2 dan boshlab",
     "freedom": "Erkinlik yo‘li shu yerdan boshlanadi"
   },
   "countries": {
@@ -204,7 +204,7 @@
   "about": {
     "title": "MilliySim haqida",
     "subtitle": "Dunyoda istalgan joyda, istalgan usulda aloqada bo‘ling",
-    "description": "MilliySim sizni har doim aloqada saqlash uchun eSIM va fizik SIM kartalarni birlashtiradi. Biz 180+ mamlakatda mobil internet va ovozli xizmatlarni roumingsiz va to‘liq moslashuvchanlik bilan taqdim etamiz.",
+    "description": "MilliySim sizni har doim aloqada saqlash uchun eSIM va fizik SIM kartalarni birlashtiradi. Biz 190+ mamlakatda mobil internet va ovozli xizmatlarni roumingsiz va to‘liq moslashuvchanlik bilan taqdim etamiz.",
     "mission_title": "Bizning missiyamiz",
     "mission_desc": "Odamlarga istalgan vaqtda, istalgan joyda va istalgan shaklda — eSIM yoki an’anaviy SIM karta orqali — bog‘lanish erkinligini taqdim etish.",
     "values_title": "Bizning qadriyatlarimiz",
@@ -216,7 +216,7 @@
     },
     "why_choose_title": "Nega MilliySim?",
     "why_choose": {
-      "coverage": "180+ mamlakatda qamrov",
+      "coverage": "190+ mamlakatda qamrov",
       "activation": "Bir necha daqiqada eSIM faollashtirish yoki istalgan qurilma uchun fizik SIM",
       "no_roaming": "Rouming yo‘q, yashirin to‘lovlar yo‘q",
       "flexible_plans": "Moslashuvchan internet va ovozli rejalar",
