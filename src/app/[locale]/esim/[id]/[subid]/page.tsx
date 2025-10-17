@@ -6,7 +6,11 @@ import {
     TooltipContent,
     TooltipTrigger,
 } from "@/components/ui/tooltip";
+import { IconTag } from "@tabler/icons-react";
 import {
+    Banknote,
+    CalendarDays,
+    CardSim,
     CheckCircle,
     CircleCheck,
     CircleGauge,
@@ -18,6 +22,7 @@ import {
     Info,
     MapPinCheck,
     Signal,
+    SignalHigh,
     Smartphone,
     WifiCog,
     X,
@@ -34,6 +39,8 @@ const SingleEsimCard = () => {
         data: "50 GB",
         price: "155$",
         old_price: "222$",
+        country: "Uzbekistan",
+        esim_name: "Uzmobile",
         minute: 15,
         sms: 50,
         days: 30,
@@ -52,24 +59,29 @@ const SingleEsimCard = () => {
     };
     return (
         <div className="my-30 container mx-auto">
-            <div className="h-full overflow-hidden bg-white dark:hover:bg-neutral-800 dark:bg-black dark:border-white/[0.2] border group-hover:border-slate-700 z-20  relative rounded-2xl max-lg:rounded-2xl max-md:rounded-xl  p-4 w-full flex justify-between">
-                <div className="flex flex-col justify-between gap-2">
-                    <p className="text-3xl">{item.data}</p>
-
-                    <div className="flex gap-1 items-center">
-                        <Clock4 />
-                        <p>{t("validity")}</p>
+            <div className="h-full overflow-hidden bg-white dark:hover:bg-neutral-800 dark:bg-black dark:border-white/[0.2] border group-hover:border-slate-700 z-20  relative rounded-2xl max-lg:rounded-2xl max-md:rounded-xl p-4 flex flex-col gap-6">
+                <div className="flex gap-1 items-center">
+                    <CardSim size={30} />
+                    <div className="flex flex-col">
+                        <p className="text-lg leading-4">{item?.country} {item?.data}</p>
+                        <p className="text-base text-primary/50">{item?.esim_name}</p>
                     </div>
                 </div>
-                <div className="flex flex-col items-end">
-                    <p className="text-3xl">{item.price}</p>
-                    <p className="line-through text-gray-400 text-sm">{item.old_price}</p>
-                    <p className="text-2xl">
-                        {item.days} {t("days")}
-                    </p>
+                <div className="grid grid-cols-3 w-full items-center gap-40">
+                    <div className="flex items-center justify-self-end gap-1"> <p className="text-2xl  text-right">{item.price}</p> <IconTag /></div>
+                    <div className="flex w-full justify-center  items-center gap-1  border-x-2 justify-self-center">
+                        <CalendarDays />
+                        <p className="text-2xl text-center ">
+                            {item.days} {t("days")}
+                        </p>
+                    </div>
+                    <div className="flex items-center gap-1">
+                        <SignalHigh />
+                        <p className="text-2xl ">{item.data}</p>
+                    </div>
                 </div>
             </div>
-            <Button className="mt-2 w-full py-3 text-xl h-auto">
+            <Button className="mt-2 w-full py-3 text-xl h-auto hover:bg-orange-500 bg-orange-600 text-white cursor-pointer">
                 {t("buy_now")}
             </Button>
             <div className="grid grid-cols-2 gap-3 mt-5 max-md:grid-cols-1">
