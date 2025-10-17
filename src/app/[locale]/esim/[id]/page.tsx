@@ -3,6 +3,7 @@ import React from 'react'
 import PlanTabs from './plans-tabs'
 import { DeviceModal } from '@/components/device_compatibility'
 import Steps from './steps'
+import Faq from './faq'
 
 const ESimSingle = () => {
     const t = useTranslations("esim")
@@ -14,6 +15,7 @@ const ESimSingle = () => {
             </div>
             <PlanTabs />
             <Steps />
+            <Faq />
         </div>
     )
 }
