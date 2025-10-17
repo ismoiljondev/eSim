@@ -5,6 +5,7 @@ import { GlowingEffect } from "@/components/ui/glowing-effect";
 import { useTranslations } from "next-intl";
 import React from "react";
 import dynamic from "next/dynamic";
+import Link from "next/link";
 const World = dynamic(() => import("../ui/globe").then((m) => m.World), {
     ssr: false,
 });
@@ -409,7 +410,8 @@ export function Cards() {
                 area="md:[grid-area:1/7/2/13] xl:[grid-area:2/1/3/5]"
                 icon={<Plane className="h-4 w-4 text-black dark:text-neutral-400" />}
                 title={t("step2.title")}
-                description={t("step2.desc")} />
+                description={t("step2.desc")}
+            />
 
             <GridItem
                 area="md:[grid-area:2/1/3/7] xl:[grid-area:1/5/3/8]"
@@ -424,13 +426,18 @@ export function Cards() {
                 area="md:[grid-area:2/7/3/13] xl:[grid-area:1/8/2/13]"
                 icon={<Bot className="h-4 w-4 text-black dark:text-neutral-400" />}
                 title={t("step4.title")}
-                description={t("step4.desc")} />
+                description={t("step4.desc")}
+                href="https://t.me/milliysim_bot"
+
+            />
 
             <GridItem
                 area="md:[grid-area:3/1/4/13] xl:[grid-area:2/8/3/13]"
                 icon={<Clock7 className="h-4 w-4 text-black dark:text-neutral-400" />}
                 title={t("step5.title")}
-                description={t("step5.desc")} />
+                description={t("step5.desc")}
+                href="https://t.me/milliysim_admin"
+            />
         </ul>
     );
 }
@@ -440,12 +447,13 @@ interface GridItemProps {
     icon: React.ReactNode;
     title: string;
     description: React.ReactNode;
-    children?: React.ReactNode
+    children?: React.ReactNode;
+    href?: string
 }
 
-const GridItem = ({ area, icon, title, description, children }: GridItemProps) => {
+const GridItem = ({ area, icon, title, description, children, href }: GridItemProps) => {
     return (
-        <li className={`min-h-[14rem] list-none ${area}`}>
+        <Link href={href ?? "#"} target="_blank" className={`min-h-[14rem] list-none ${area}`}>
             <div className="relative h-full rounded-2xl border p-2 md:rounded-3xl md:p-3">
                 <GlowingEffect
                     spread={40}
@@ -471,6 +479,6 @@ const GridItem = ({ area, icon, title, description, children }: GridItemProps) =
                     </div>
                 </div>
             </div>
-        </li>
+        </Link>
     );
 };
