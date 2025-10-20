@@ -1,9 +1,13 @@
 import { IconBrandInstagram, IconBrandTelegram } from '@tabler/icons-react'
 import { Mail, Phone } from 'lucide-react'
 import { useTranslations } from 'next-intl'
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-
+import uzcard from '@/media/Uzcard_Logo_old.png'
+import humo from '@/media/Humo.png'
+import visa from '@/media/visa.png'
+import master from '@/media/mastercard.png'
 const Footer = () => {
     const t = useTranslations()
     return (
@@ -52,6 +56,12 @@ const Footer = () => {
                             <Link className='font-medium hover:underline' href={'/contact_us'}>
                                 {t("contact_us")}
                             </Link>
+                        </div>
+                        <div className='flex items-center'>
+                            <Image width={60} src={uzcard} alt='uzcard' className='-mr-1' />
+                            <Image width={60} src={humo} alt='humo' />
+                            <Image width={60} src={visa} alt='visa' className='mr-2' />
+                            <Image width={60} height={30} src={master} alt='master' />
                         </div>
                         <a
                             href="/"

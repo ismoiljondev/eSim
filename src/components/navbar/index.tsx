@@ -14,6 +14,7 @@ import { useState } from "react";
 import { ModeToggle } from "../mode-toggle";
 import { useTranslations } from "next-intl";
 import { LanguageSwitcher } from "../langugage-swticher";
+import { CurrencySwitcher } from "../currency-swticher";
 
 export function NavbarDemo() {
     const navItems = [
@@ -50,6 +51,7 @@ export function NavbarDemo() {
                     <NavItems items={navItems} />
                     <div className="flex items-center gap-4">
 
+                        <NavbarButton variant="secondary" className="p-0"><CurrencySwitcher /></NavbarButton>
                         <NavbarButton variant="secondary" className="p-0"><LanguageSwitcher /></NavbarButton>
                         <NavbarButton variant="secondary" className="p-0"><ModeToggle /></NavbarButton>
                         <NavbarButton variant="primary">{t("login")}</NavbarButton>
@@ -61,6 +63,7 @@ export function NavbarDemo() {
                     <MobileNavHeader>
                         <NavbarLogo />
                         <div className="flex gap-2 items-center">
+                            <CurrencySwitcher />
                             <LanguageSwitcher />
                             <ModeToggle />
                             <MobileNavToggle
