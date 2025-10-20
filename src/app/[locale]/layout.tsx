@@ -8,6 +8,7 @@ import { routing } from "@/i18n/routing";
 import { notFound } from "next/navigation";
 import Footer from "@/components/footer";
 import 'react-international-phone/style.css';
+import { Analytics } from '@vercel/analytics/next';
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -51,7 +52,9 @@ export default async function RootLayout({
           >
             <div className="flex flex-col min-h-screen">
               <header><NavbarDemo /></header>
-              <main>{children}</main>
+              <main>{children}
+                <Analytics />
+              </main>
               <footer className="w-full mt-auto">
                 <Footer />
               </footer>
