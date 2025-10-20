@@ -110,11 +110,9 @@ const Countries = () => {
 
     ]
     return (
-        <div className='bg-white dark:bg-black'>
-            <div className='flex flex-col justify-center'>
-                <HoverEffect items={CountriesData} />
-                <Button className='w-fit mx-auto'>{tr("show_more")}</Button>
-            </div>
+        <div className='flex flex-col justify-center'>
+            <HoverEffect items={CountriesData} />
+            <Button className='w-fit mx-auto'>{tr("show_more")}</Button>
         </div>
     )
 }
