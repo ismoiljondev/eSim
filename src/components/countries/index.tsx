@@ -27,20 +27,22 @@ const Countries = () => {
         },
         {
             content: (
-                <Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
-                    <ReactCountryFlag
-                        countryCode={"CN"}
-                        svg
-                        style={{ width: "2em", height: "2em" }}
-                        aria-label={"CN"}
-                    />
-                    <CardTitle>{t("CN")}</CardTitle>
-                </Card>
+                <Link href={'/esim/1'}>
+                    <Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
+                        <ReactCountryFlag
+                            countryCode={"CN"}
+                            svg
+                            style={{ width: "2em", height: "2em" }}
+                            aria-label={"CN"}
+                        />
+                        <CardTitle>{t("CN")}</CardTitle>
+                    </Card></Link>
+
             ),
         },
         {
             content: (
-                <Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
+                <Link href={'/esim/1'}><Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
                     <ReactCountryFlag
                         countryCode={"CN"}
                         svg
@@ -48,12 +50,13 @@ const Countries = () => {
                         aria-label={"CN"}
                     />
                     <CardTitle>{t("CN")}</CardTitle>
-                </Card>
+                </Card></Link>
+
             ),
         },
         {
             content: (
-                <Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
+                <Link href={'/esim/1'}><Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
                     <ReactCountryFlag
                         countryCode={"CN"}
                         svg
@@ -61,12 +64,13 @@ const Countries = () => {
                         aria-label={"CN"}
                     />
                     <CardTitle>{t("CN")}</CardTitle>
-                </Card>
+                </Card></Link>
+
             ),
         },
         {
             content: (
-                <Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
+                <Link href={'/esim/1'}><Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
                     <ReactCountryFlag
                         countryCode={"CN"}
                         svg
@@ -74,12 +78,13 @@ const Countries = () => {
                         aria-label={"CN"}
                     />
                     <CardTitle>{t("CN")}</CardTitle>
-                </Card>
+                </Card></Link>
+
             ),
         },
         {
             content: (
-                <Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
+                <Link href={'/esim/1'}><Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
                     <ReactCountryFlag
                         countryCode={"CN"}
                         svg
@@ -87,12 +92,13 @@ const Countries = () => {
                         aria-label={"CN"}
                     />
                     <CardTitle>{t("CN")}</CardTitle>
-                </Card>
+                </Card></Link>
+
             ),
         },
         {
             content: (
-                <Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
+                <Link href={'/esim/1'}><Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
                     <ReactCountryFlag
                         countryCode={"CN"}
                         svg
@@ -100,12 +106,13 @@ const Countries = () => {
                         aria-label={"CN"}
                     />
                     <CardTitle>{t("CN")}</CardTitle>
-                </Card>
+                </Card></Link>
+
             ),
         },
         {
             content: (
-                <Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
+                <Link href={'/esim/1'}><Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
                     <ReactCountryFlag
                         countryCode={"CN"}
                         svg
@@ -113,12 +120,13 @@ const Countries = () => {
                         aria-label={"CN"}
                     />
                     <CardTitle>{t("CN")}</CardTitle>
-                </Card>
+                </Card></Link>
+
             ),
         },
         {
             content: (
-                <Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
+                <Link href={'/esim/1'}><Card className="rounded-2xl max-lg:rounded-2xl max-md:rounded-xl border">
                     <ReactCountryFlag
                         countryCode={"CN"}
                         svg
@@ -126,9 +134,11 @@ const Countries = () => {
                         aria-label={"CN"}
                     />
                     <CardTitle>{t("CN")}</CardTitle>
-                </Card>
+                </Card></Link>
+
             ),
         },
+
     ];
     return (
         <div className="flex flex-col justify-center container mx-auto">
