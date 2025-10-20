@@ -40,7 +40,7 @@ export function SetUpCarousel({ data }: Props) {
 
     return (
         <div className="mx-auto max-w-xs mt-4">
-            <Carousel setApi={setApi} className="max-md:w-4/5 w-full mx-auto !pb-0">
+            <Carousel setApi={setApi} className="w-4/5 mx-auto !pb-0">
                 <CarouselContent className="!pb-0 !mb-0 ">
                     {data.map((item, index) => (
                         <CarouselItem key={index} className="">
@@ -49,8 +49,8 @@ export function SetUpCarousel({ data }: Props) {
                         </CarouselItem>
                     ))}
                 </CarouselContent>
-                <CarouselPrevious />
-                <CarouselNext />
+                <CarouselPrevious className="cursor-pointer" />
+                <CarouselNext className="cursor-pointer" />
             </Carousel>
             <div className="text-muted-foreground text-center text-xl !mt-0">
                 {t("step_of", { current: current, total: count })}

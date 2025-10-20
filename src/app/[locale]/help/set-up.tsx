@@ -19,6 +19,7 @@ import Android6 from '@/media/android_set_up_6.jpg'
 import Android7 from '@/media/android_set_up_7.jpg'
 import Android8 from '@/media/android_set_up_8.jpg'
 import Android9 from '@/media/android_set_up_9.jpg'
+import { IconBrandAndroid, IconBrandApple, IconBrandAppleFilled } from '@tabler/icons-react'
 const SetUp = () => {
     const t = useTranslations("help");
     const dataiOS = [
@@ -96,8 +97,8 @@ const SetUp = () => {
     return (
         <Tabs defaultValue="iOS" className="w-full mt-3">
             <TabsList className="p-2 h-11 mx-auto">
-                <TabsTrigger className="text-lg px-3 h-full rounded-md cursor-pointer bg-white dark:bg-black mx-1" value="iOS">iOS</TabsTrigger>
-                <TabsTrigger className="text-lg px-3 h-full rounded-md cursor-pointer bg-white dark:bg-black mx-1" value="Android">Android</TabsTrigger>
+                <TabsTrigger className="text-lg px-3 h-full rounded-md cursor-pointer bg-white dark:bg-black mx-1" value="iOS"><IconBrandApple /> iOS</TabsTrigger>
+                <TabsTrigger className="text-lg px-3 h-full rounded-md cursor-pointer bg-white dark:bg-black mx-1" value="Android"><IconBrandAndroid /> Android</TabsTrigger>
             </TabsList>
             <TabsContent value="iOS">
                 <SetUpCarousel data={dataiOS} />

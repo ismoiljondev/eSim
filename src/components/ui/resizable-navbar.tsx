@@ -136,6 +136,7 @@ export const NavItems = ({ items, className, onItemClick }: NavItemsProps) => {
                     className={`relative px-4 py-2 text-neutral-600 dark:text-neutral-300 ${param === `/${locale}${item.link}` ? " bg-gray-100 dark:bg-neutral-800 rounded-lg border" : ""}`}
                     key={`link-${idx}`}
                     href={item.link}
+                    locale={locale}
                 >
                     {hovered === idx && (
                         <motion.div

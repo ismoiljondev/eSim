@@ -21,7 +21,7 @@ const Aboutontact = () => {
                             <p className='text-lg font-medium'>{t("telegram_title")}</p>
                             <p>{t("telegram_desc")}</p>
                         </div>
-                        <Button className='w-fit cursor-pointer' onClick={() => window.open('https://t.me/milliysim_bot', '_blank')}>➡ {t("telegram_button")}</Button>
+                        <Button className='w-fit cursor-pointer' onClick={() => window.open('https://t.me/milliysim_bot', '_blank')}><IconBrandTelegram /> {t("telegram_button")}</Button>
                     </div>
                 </div>
                 <div className='flex gap-5'>
@@ -35,7 +35,7 @@ const Aboutontact = () => {
                         </div>
                         <a href="mailto:support@milliy.esim.uz@gmail.com">
                             <Button className="w-fit cursor-pointer">
-                                📧 support@milliy.esim.uz@gmail.com
+                                <IconMail /> support@milliy.esim.uz@gmail.com
                             </Button>
                         </a>
                     </div>
@@ -49,7 +49,7 @@ const Aboutontact = () => {
                             <p className='text-lg font-medium'>{t("faq_title")}</p>
                             <p>{t("faq_desc")}</p>
                         </div>
-                        <Button className='w-fit cursor-pointer' onClick={() => window.open('#', '_blank')}>➡ {t("faq_button")}</Button>
+                        <Button className='w-fit cursor-pointer' onClick={() => window.open('#', '_blank')}><IconZoomQuestion /> {t("faq_button")}</Button>
                         <Link href={"#"}></Link>
                     </div>
                 </div>

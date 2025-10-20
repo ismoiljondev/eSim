@@ -173,7 +173,7 @@
     "esim_usage_question": "How many times can I use my eSIM?",
     "esim_usage_answer": "You can use your MilliySim eSIM multiple times, depending on your plan. It can be reactivated and used for various trips or data plans without needing a new SIM card.\n\nYour eSIM can only be activated on one device.\nIf you delete the eSIM from your phone, you cannot reuse it.\nYou cannot scan the QR code on two devices, but on specific plans, you can share data between devices by adjusting the settings on your phone.",
     "delete_data_question": "How do I request MilliySim to delete my data?",
-    "delete_data_answer": "1. Sign in to your MilliySim account on either the web or mobile app.\n\n2. Go to the Account Management page and click on \"Delete my account\".\n\n3. Confirm the deletion — all your data will be deleted, and you will no longer have access to your account."
+    "delete_data_answer": "1. Sign in to your MilliySim account on either the web.\n\n2. Go to the Account Management page and click on \"Delete my account\".\n\n3. Confirm the deletion — all your data will be deleted, and you will no longer have access to your account."
   },
   "partnership": {
     "partners_title": "MilliySim for Partners",

@@ -174,7 +174,7 @@
     "esim_usage_question": "eSIM’ni necha marta ishlatishim mumkin?",
     "esim_usage_answer": "MilliySim eSIM’ni rejangizga qarab bir necha marta ishlatishingiz mumkin. Uni qayta faollashtirib, turli sayohatlar yoki ma’lumot rejalari uchun yangi SIM kartasiz ishlatish mumkin.\n\nSizning eSIM faqat bitta qurilmada faollashtiriladi.\nAgar eSIM’ni telefoningizdan o‘chirib tashlasangiz, uni qayta ishlatib bo‘lmaydi.\nQR kodni ikkita qurilmada skanerlab bo‘lmaydi, biroq ba’zi tariflarda telefon sozlamalari orqali ma’lumotni bir nechta qurilma o‘rtasida ulashish mumkin.",
     "delete_data_question": "MilliySim’dan ma’lumotlarimni qanday o‘chirib tashlashim mumkin?",
-    "delete_data_answer": "1. MilliySim akkauntingizga veb-sayt yoki mobil ilova orqali kiring.\n\n2. Hisob boshqaruvi sahifasiga o‘ting va \"Hisobni o‘chirish\" tugmasini bosing.\n\n3. O‘chirishni tasdiqlang — barcha ma’lumotlaringiz o‘chiriladi va akkauntingizga endi kira olmaysiz."
+    "delete_data_answer": "1. MilliySim akkauntingizga veb-sayt orqali kiring.\n\n2. Hisob boshqaruvi sahifasiga o‘ting va \"Hisobni o‘chirish\" tugmasini bosing.\n\n3. O‘chirishni tasdiqlang — barcha ma’lumotlaringiz o‘chiriladi va akkauntingizga endi kira olmaysiz."
   },
   "partnership": {
     "partners_title": "MilliySim hamkorlari uchun",
