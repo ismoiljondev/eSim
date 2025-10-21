@@ -10,7 +10,7 @@ const Aboutontact = () => {
     const t = useTranslations("contact");
     return (
         <div className='flex flex-col gap-5'>
-            <Title desc={t("subtitle")} title={t("title")} className='justify-start items-start' />
+            <Title desc={t("subtitle")} title={t("title")} className='justify-start items-start max-md:text-center w-full max-md:items-center' />
             <div className='flex flex-col gap-5'>
                 <div className='flex gap-5'>
                     <div className='border-2 rounded-xl p-1 w-fit h-fit aspect-square'>

@@ -31,23 +31,23 @@ const FormContanct = () => {
         <div className='flex flex-col gap-5 justify-self-end border rounded-xl p-6  w-full ml-8'>
             <Title desc={t("subtitle")} title={t("title")} className='justify-start items-start' />
             <Form {...form}>
-                <form className=" flex flex-col gap-3 w-full" onSubmit={handleSubmit}>
+                <form className="flex flex-col gap-3 w-full" onSubmit={handleSubmit}>
                     <div className="flex flex-col gap-1">
-                        <Label htmlFor="full_name" className='text-xl'>{t("full_name")}</Label>
-                        <Input id="full_name" placeholder={t("full_name")} type="text" className='h-12' />
+                        <Label htmlFor="full_name" className='text-xl max-md:text-base'>{t("full_name")}</Label>
+                        <Input id="full_name" placeholder={t("full_name")} type="text" className='h-12 max-md:h-10' />
                     </div>
                     <div className="flex flex-col gap-1">
-                        <Label htmlFor="email" className='text-xl'>{t("email")}</Label>
-                        <Input id="email" placeholder={t("email")} type="text" className='h-12' />
+                        <Label htmlFor="email" className='text-xl max-md:text-base'>{t("email")}</Label>
+                        <Input id="email" placeholder={t("email")} type="text" className='h-12 max-md:h-10' />
                     </div>
 
                     <div className="flex flex-col gap-1">
-                        <Label htmlFor="subject" className='text-xl'>{t("subject")}</Label>
-                        <Input id="subject" placeholder={t("subject")} type="text" className='h-12' />
+                        <Label htmlFor="subject" className='text-xl max-md:text-base'>{t("subject")}</Label>
+                        <Input id="subject" placeholder={t("subject")} type="text" className='h-12 max-md:h-10' />
                     </div>
                     <div className="flex flex-col gap-1 col-span-2">
-                        <Label htmlFor="message" className='text-xl'>{t("message")}</Label>
-                        <Textarea id="message" placeholder={t("message")} className='h-12' />
+                        <Label htmlFor="message" className='text-xl max-md:text-base'>{t("message")}</Label>
+                        <Textarea id="message" placeholder={t("message")} className='h-12 max-md:h-10' />
                     </div>
                     <button
                         className="col-span-2 group/btn relative block h-10 text-sm w-1/3 rounded-md bg-gradient-to-br from-black to-neutral-600 font-medium text-white shadow-[0px_1px_0px_0px_#ffffff40_inset,0px_-1px_0px_0px_#ffffff40_inset] dark:bg-zinc-800 dark:from-zinc-900 dark:to-zinc-900 dark:shadow-[0px_1px_0px_0px_#27272a_inset,0px_-1px_0px_0px_#27272a_inset]"
