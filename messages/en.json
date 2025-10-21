@@ -114,7 +114,8 @@
     "faq_answer4": "Yes! Mobile hotspot feature is enabled in all of our products, except if explicitly mentioned in the product details.",
     "destinations_networks": "Destinations & networks",
     "destinations_networks_desc": "The operator can change the networks the eSIM connects to without notice.",
-    "buy_now": "Buy now"
+    "buy_now": "Buy now",
+    "price": "Price"
   },
   "regions": {
     "1": "Africa",

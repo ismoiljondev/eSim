@@ -115,7 +115,8 @@
     "faq_answer4": "Ha! Mobil hotspot funksiyasi barcha mahsulotlarimizda yoqilgan, agar mahsulot tafsilotlarida boshqacha ko‘rsatilmagan bo‘lsa.",
     "destinations_networks": "Yo‘nalishlar va tarmoqlar",
     "destinations_networks_desc": "Operator eSIM ulanadigan tarmoqlarni oldindan ogohlantirmasdan o‘zgartirishi mumkin.",
-    "buy_now": "Hoziroq xarid qiling"
+    "buy_now": "Hoziroq xarid qiling",
+    "price": "Narx"
   },
   "regions": {
     "1": "Afrika",
