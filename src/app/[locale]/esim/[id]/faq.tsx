@@ -60,15 +60,15 @@ const Faq = () => {
         },
     ]
     return (
-        <div className='flex flex-col gap-5'>
+        <div className='flex flex-col gap-5 my-10 max-md:mb-0'>
             <p className='text-2xl font-medium'>{t("title")}</p>
-            <div className='grid grid-cols-2 gap-6'>
+            <div className='grid grid-cols-2 gap-6 max-sm:grid-cols-1'>
                 <Accordion type="multiple" className="border-t rounded-xl border shadow">
                     {
                         data?.map((item, index) => (
                             <AccordionItem value={`item-${index}`} key={index}>
-                                <AccordionTrigger className="px-4 text-xl">{item?.question}</AccordionTrigger>
-                                <AccordionContent className="text-base p-3 font-normal">
+                                <AccordionTrigger className="px-4 text-xl max-lg:text-lg max-sm:text-base max-lg:px-3">{item?.question}</AccordionTrigger>
+                                <AccordionContent className="text-base p-3 font-normal max-sm:text-sm">
                                     {item?.answer}
                                 </AccordionContent>
                             </AccordionItem>
@@ -79,8 +79,8 @@ const Faq = () => {
                     {
                         data2?.map((item, index) => (
                             <AccordionItem value={`item-${index}`} key={index}>
-                                <AccordionTrigger className="px-4 text-xl">{item?.question}</AccordionTrigger>
-                                <AccordionContent className="text-base p-3 font-normal">
+                                <AccordionTrigger className="px-4 text-xl max-lg:text-lg max-sm:text-base max-lg:px-3">{item?.question}</AccordionTrigger>
+                                <AccordionContent className="text-base p-3 font-normal max-sm:text-sm">
                                     {item?.answer}
                                 </AccordionContent>
                             </AccordionItem>

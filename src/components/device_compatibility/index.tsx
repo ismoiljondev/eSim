@@ -16,7 +16,7 @@ export function DeviceModal() {
     const t = useTranslations("device-modal")
     return (
         <Modal>
-            <ModalTrigger className="bg-black dark:bg-white dark:text-black text-white flex gap-1 cursor-pointer justify-center group/modal-btn ">
+            <ModalTrigger className="bg-black dark:bg-white dark:text-black text-white flex gap-1 cursor-pointer justify-center group/modal-btn max-sm:w-fit">
                 <Smartphone />{" "} <p>{t("device_compatibility")}</p>
             </ModalTrigger>
             <ModalBody>
