@@ -10,7 +10,7 @@ const Partnership = () => {
     const t = useTranslations("partnership")
     return (
         <div className="flex flex-col container mx-auto w-full  items-center justify-start my-30">
-            <div className='grid grid-cols-2 gap-2 items-center justify-between'>
+            <div className='grid grid-cols-2 gap-2 max-md:grid-cols-1 items-center justify-between'>
                 <Title title={t("partners_title")} desc={t("partners_description")} className="justify-start items-start text-start" />
                 <Image src={partnerships} alt='partnerships' className='w-4/5 justify-self-end' />
             </div>

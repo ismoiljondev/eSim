@@ -28,7 +28,7 @@ export function Showcase() {
                     Signup
                 </button>
             </div> */}
-            <SearchInput className="mt-5" />
+            <SearchInput className="mt-5 max-md:mx-2" />
         </div>
     );
 }

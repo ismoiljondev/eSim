@@ -12,9 +12,10 @@ import {
 } from "@/components/ui/resizable-navbar";
 import { useState } from "react";
 import { ModeToggle } from "../mode-toggle";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { LanguageSwitcher } from "../langugage-swticher";
 import { CurrencySwitcher } from "../currency-swticher";
+import { usePathname } from "next/navigation";
 
 export function NavbarDemo() {
     const navItems = [
@@ -41,7 +42,9 @@ export function NavbarDemo() {
     ];
 
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-    const t = useTranslations("menu")
+    const t = useTranslations("menu");
+    const param = usePathname()
+    const locale = useLocale();
     return (
         <div className="fixed top-0 z-1000 pt-5 w-full">
             <Navbar>
@@ -82,7 +85,7 @@ export function NavbarDemo() {
                                 key={`mobile-link-${idx}`}
                                 href={item.link}
                                 onClick={() => setIsMobileMenuOpen(false)}
-                                className="relative text-neutral-600 dark:text-neutral-300"
+                                className={`relative text-neutral-600 dark:text-neutral-300 ${param === `/${locale}${item.link}` ? " bg-gray-100 dark:bg-neutral-800 rounded-md px-2 border" : ""}`}
                             >
                                 <span className="block">{t(item.name)}</span>
                             </a>

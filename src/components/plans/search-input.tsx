@@ -29,7 +29,7 @@ export function SearchInput({ className }: Props) {
         console.log("submitted");
     };
     return (
-        <div className={cn(`mb-4 w-full`, className)}>
+        <div className={cn(`mb-4 max-md:w-4/5 w-full`, className)}>
             {/* <h2 className="mb-10 sm:mb-20 text-xl text-center sm:text-5xl dark:text-white text-black">
                 Ask Aceternity UI Anything
             </h2> */}
