@@ -10,7 +10,7 @@ const PlanTabs = () => {
     const t = useTranslations("esim")
     return (
         <>
-            <Tabs defaultValue="data" className="w-full">
+            <Tabs defaultValue="unlimited" className="w-full">
                 <TabsList className="p-1 h-11">
                     <TabsTrigger className="text-lg max-sm:text-base max-sm:h-8 p-2 h-9 cursor-pointer" value="unlimited"><Infinity /> {t("unlimited")}</TabsTrigger>
                     <TabsTrigger className="text-lg max-sm:text-base max-sm:h-8 p-2 h-9 cursor-pointer" value="data"><Wifi /> {t("data")}</TabsTrigger>

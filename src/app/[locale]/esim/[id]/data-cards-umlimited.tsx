@@ -38,7 +38,7 @@ const DataUnlimited = () => {
                             <Signal />
                             <p>{t("data")}</p>
                         </div>
-                        <p className='text-2xl max-md:text-xl text-end'>{t("unlimited")} {t("data")}</p>
+                        <p className='text-2xl max-md:text-xl text-end'>{t("unlimited")}</p>
                     </div>
                     <div className='flex justify-between'>
                         <div className="flex gap-1 items-center">
