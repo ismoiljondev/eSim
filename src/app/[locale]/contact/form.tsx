@@ -50,7 +50,7 @@ const FormContanct = () => {
                         <Textarea id="message" placeholder={t("message")} className='h-12 max-md:h-10' />
                     </div>
                     <button
-                        className="col-span-2 group/btn relative block h-10 text-sm w-1/3 rounded-md bg-gradient-to-br from-black to-neutral-600 font-medium text-white shadow-[0px_1px_0px_0px_#ffffff40_inset,0px_-1px_0px_0px_#ffffff40_inset] dark:bg-zinc-800 dark:from-zinc-900 dark:to-zinc-900 dark:shadow-[0px_1px_0px_0px_#27272a_inset,0px_-1px_0px_0px_#27272a_inset]"
+                        className="col-span-2 group/btn relative block h-10 text-sm w-1/3 rounded-md bg-gradient-to-br from-black to-neutral-600 font-medium text-white shadow-[0px_1px_0px_0px_#ffffff40_inset,0px_-1px_0px_0px_#ffffff40_inset] dark:bg-zinc-800 dark:from-zinc-900 dark:to-zinc-900 dark:shadow-[0px_1px_0px_0px_#27272a_inset,0px_-1px_0px_0px_#27272a_inset] max-sm:w-fit max-md:px-3 max-md:mx-auto"
                         type="submit"
                     >
                         {t("send_message")}

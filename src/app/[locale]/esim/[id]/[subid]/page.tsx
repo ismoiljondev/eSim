@@ -67,17 +67,17 @@ const SingleEsimCard = () => {
                         <p className="text-base text-primary/50">{item?.esim_name}</p>
                     </div>
                 </div>
-                <div className="grid grid-cols-3 w-full items-center gap-40">
-                    <div className="flex items-center justify-self-end gap-1"> <p className="text-2xl  text-right">{item.price}</p> <IconTag /></div>
-                    <div className="flex w-full justify-center  items-center gap-1  border-x-2 justify-self-center">
+                <div className="grid grid-cols-3 w-full items-center">
+                    <div className="flex  w-full justify-center gap-1  "> <p className="text-2xl max-md:text-xl max-sm:text-lg  text-right">{item.price}</p> <IconTag /></div>
+                    <div className="flex  w-full justify-center   items-center gap-1  border-x-2 justify-self-center">
                         <CalendarDays />
-                        <p className="text-2xl text-center ">
+                        <p className="text-2xl max-md:text-xl max-sm:text-lg text-center ">
                             {item.days} {t("days")}
                         </p>
                     </div>
-                    <div className="flex items-center gap-1">
+                    <div className="flex  w-full justify-center gap-1 ">
                         <SignalHigh />
-                        <p className="text-2xl ">{item.data}</p>
+                        <p className="text-2xl max-md:text-xl max-sm:text-lg ">{item.data}</p>
                     </div>
                 </div>
             </div>
@@ -89,7 +89,7 @@ const SingleEsimCard = () => {
                     <p className="text-3xl font-medium">{t("details")}</p>
                     <div className="flex flex-col gap-2 rounded-xl border shadow">
                         <div className="grid grid-cols-3 py-4">
-                            <div className="flex flex-col gap-1 items-center border-r">
+                            <div className="flex flex-col gap-1 items-center border-r max-sm:text-sm">
                                 {item?.details?.data ? <CircleCheck /> : <XCircle />}
                                 <p>{t("data")}</p>
                             </div>
@@ -103,7 +103,7 @@ const SingleEsimCard = () => {
                             </div>
                         </div>
                         <div className="flex justify-between border-t p-5">
-                            <div className="flex flex-col gap-4">
+                            <div className="flex flex-col gap-4 max-sm:text-sm">
                                 <div className="flex items-center gap-3">
                                     <Signal size={25} />
                                     <div className="flex flex-col">
@@ -180,7 +180,7 @@ const SingleEsimCard = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="flex flex-col gap-4">
+                            <div className="flex flex-col gap-4  max-sm:text-sm">
                                 <div className="flex items-center gap-3">
                                     <FileText size={25} />
                                     <div className="flex flex-col">

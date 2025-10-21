@@ -41,7 +41,7 @@ const CallCards = () => {
                             <p className='text-2xl'>{item.days} {t("days")}</p>
                         </div>
                     </div>
-                    <Button className='w-fit justify-self-end self-end cursor-pointer hover:bg-orange-500 bg-orange-600 text-white'>{t("buy_now")}</Button>
+                    <Button className='w-fit max-sm:w-full justify-self-end self-end cursor-pointer hover:bg-orange-500 bg-orange-600 text-white'>{t("buy_now")}</Button>
                 </div>
             </Link>
         )

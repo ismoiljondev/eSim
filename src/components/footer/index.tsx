@@ -45,7 +45,7 @@ const Footer = () => {
 
                         </div>
                     </div>
-                    <div className='flex justify-between max-lg:flex-col-reverse max-lg:gap-4 items-center'>
+                    <div className='flex justify-between max-lg:flex-col-reverse max-lg:gap-4 max-sm:gap-1 items-center'>
                         <div className='flex gap-3 max-sm:flex-col items-center'>
                             <Link className='font-medium hover:underline' href={'/privacy_policy'}>
                                 {t("privacy_policy")}
