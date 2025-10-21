@@ -12,10 +12,10 @@ import Link from 'next/link'
 const AboutUs = () => {
     const t = useTranslations("about")
     return (
-        <div className="flex flex-col gap-10 container mx-auto w-full  items-center justify-start my-30 max-md:my-16 max-sm:mb-10">
+        <div className="flex flex-col gap-10 container mx-auto w-full  items-center justify-start my-30 max-sm:mt-24 max-sm:mb-10">
             <div className='grid grid-cols-2 gap-2 items-center justify-between max-md:flex max-md:flex-col-reverse'>
                 <div>
-                    <Title title={t("title")} desc="" className="justify-start items-start text-start" />
+                    <Title title={t("title")} desc="" className="justify-start items-start text-start max-md:text-center max-md:items-center" />
                     <div className='flex flex-col gap-2'>
                         <h2 className='text-[clamp(20px,calc(20px+8*(100vw-350px)/1650),28px)] font-bold'>{t("subtitle")}</h2>
                         <p className='max-sm:text-base'>{t("description")}</p>

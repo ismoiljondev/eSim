@@ -21,7 +21,7 @@ const Aboutontact = () => {
                             <p className='text-lg font-medium'>{t("telegram_title")}</p>
                             <p>{t("telegram_desc")}</p>
                         </div>
-                        <Button className='w-fit cursor-pointer' onClick={() => window.open('https://t.me/milliysim_bot', '_blank')}><IconBrandTelegram /> {t("telegram_button")}</Button>
+                        <Button className='w-fit cursor-pointer' onClick={() => window.open('https://t.me/milliysim_admin', '_blank')}><IconBrandTelegram /> {t("telegram_button")}</Button>
                     </div>
                 </div>
                 <div className='flex gap-5'>
@@ -49,8 +49,8 @@ const Aboutontact = () => {
                             <p className='text-lg font-medium'>{t("faq_title")}</p>
                             <p>{t("faq_desc")}</p>
                         </div>
-                        <Button className='w-fit cursor-pointer' onClick={() => window.open('#', '_blank')}><IconZoomQuestion /> {t("faq_button")}</Button>
-                        <Link href={"#"}></Link>
+
+                        <Link href={"/help"}> <Button className='w-fit cursor-pointer'><IconZoomQuestion /> {t("faq_button")}</Button></Link>
                     </div>
                 </div>
             </div>
