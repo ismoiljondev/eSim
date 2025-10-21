@@ -10,7 +10,7 @@ const Benefits = () => {
     return (
         <div className='flex flex-col gap-4'>
             <Title title={t("benefits_title")} desc='' className='text-start justify-start items-start' />
-            <div className='grid grid-cols-3 gap-3'>
+            <div className='grid grid-cols-3 gap-3 max-md:grid-cols-2 max-sm:grid-cols-1'>
                 <div className="relative h-full rounded-2xl border p-2 md:rounded-3xl md:p-3">
                     <GlowingEffect
                         spread={40}
@@ -39,7 +39,7 @@ const Benefits = () => {
                         <p className='text-sm'>{t("benefit_2_desc")}</p>
                     </div>
                 </div>
-                <div className="relative h-full rounded-2xl border p-2 md:rounded-3xl md:p-3">
+                <div className="relative h-full rounded-2xl border p-2 md:rounded-3xl md:p-3 max-md:col-span-2 max-sm:col-span-1">
                     <GlowingEffect
                         spread={40}
                         glow={true}
@@ -53,8 +53,6 @@ const Benefits = () => {
                         <p className='text-sm'>{t("benefit_3_desc")}</p>
                     </div>
                 </div>
-
-
             </div>
         </div>
     )

@@ -32,8 +32,9 @@ const GetInTouch = () => {
     };
 
     return (
-        <div className='my-16 border rounded-xl w-full py-4'>
-            <div className='flex flex-col justify-center items-center gap-3'>
+        <div className='my-16 border rounded-xl w-full py-4 max-md:py-2 max-md:my-10
+         max-sm:mb-0'>
+            <div className='flex flex-col justify-center items-center gap-3 text-center max-sm:px-1'>
                 <p className=''>
                     {t("contact_title")}
                 </p>
@@ -43,19 +44,18 @@ const GetInTouch = () => {
                 <p>{t("partner_desc")}</p>
             </div>
             <Form {...form}>
-                <form className="my-8 grid grid-cols-2 gap-3 w-4/5 mx-auto" onSubmit={handleSubmit}>
+                <form className="my-8 grid grid-cols-2 gap-3 w-4/5 mx-auto max-md:my-4 max-md:w-11/12 max-sm:flex max-sm:flex-col " onSubmit={handleSubmit}>
                     <div className="flex flex-col gap-1">
-                        <Label htmlFor="full_name" className='text-xl'>{t("full_name")}</Label>
-                        <Input id="full_name" placeholder={t("full_name")} type="text" className='h-12' />
+                        <Label htmlFor="full_name" className='text-xl max-md:text-base'>{t("full_name")}</Label>
+                        <Input id="full_name" placeholder={t("full_name")} type="text" className='h-12 max-lg:h-10' />
                     </div>
                     <div className="flex flex-col gap-1">
-                        <Label htmlFor="email" className='text-xl'>{t("email")}</Label>
-                        <Input id="email" placeholder={t("email")} type="text" className='h-12' />
+                        <Label htmlFor="email" className='text-xl max-md:text-base'>{t("email")}</Label>
+                        <Input id="email" placeholder={t("email")} type="text" className='h-12 max-lg:h-10' />
                     </div>
-
                     <div className="flex flex-col gap-1">
-                        <Label htmlFor="company" className='text-xl'>{t("company")}</Label>
-                        <Input id="company" placeholder={t("company")} type="text" className='h-12' />
+                        <Label htmlFor="company" className='text-xl max-md:text-base'>{t("company")}</Label>
+                        <Input id="company" placeholder={t("company")} type="text" className='h-12 max-lg:h-10' />
                     </div>
                     <div className="flex flex-col gap-1">
                         <FormField
@@ -63,7 +63,7 @@ const GetInTouch = () => {
                             name="country"
                             render={() => (
                                 <FormItem>
-                                    <Label className="text-xl">{t("country")}</Label>
+                                    <Label className="text-xl max-md:text-base">{t("country")}</Label>
                                     <FormControl>
                                         <CountrySelect />
                                     </FormControl>
@@ -73,8 +73,8 @@ const GetInTouch = () => {
                         />
                     </div>
                     <div className="flex flex-col gap-1">
-                        <Label htmlFor="job_role" className='text-xl'>{t("job_role")}</Label>
-                        <Input id="job_role" placeholder={t("job_role")} type="text" className='h-12' />
+                        <Label htmlFor="job_role" className='text-xl max-md:text-base'>{t("job_role")}</Label>
+                        <Input id="job_role" placeholder={t("job_role")} type="text" className='h-12 max-lg:h-10' />
                     </div>
                     <div className="flex flex-col gap-1">
 
@@ -83,7 +83,7 @@ const GetInTouch = () => {
                             name="phone_number"
                             render={({ field }) => (
                                 <FormItem className="flex flex-col items-start h-full w-full">
-                                    <Label htmlFor="phone_number" className='text-xl'>{t("phone_number")}</Label>
+                                    <Label htmlFor="phone_number" className='text-xl max-md:text-base'>{t("phone_number")}</Label>
                                     <FormControl className="w-full">
                                         <PhoneInput defaultCountry='UZ' international={false} placeholder="Enter a phone number" {...field} />
                                     </FormControl>
@@ -92,12 +92,12 @@ const GetInTouch = () => {
                             )}
                         />
                     </div>
-                    <div className="flex flex-col gap-1 col-span-2">
-                        <Label htmlFor="message" className='text-xl'>{t("message")}</Label>
-                        <Textarea id="message" placeholder={t("message")} className='h-12' />
+                    <div className="flex flex-col gap-1 col-span-2 max-sm:col-span-1">
+                        <Label htmlFor="message" className='text-xl max-md:text-base'>{t("message")}</Label>
+                        <Textarea id="message" placeholder={t("message")} className='h-12 max-lg:h-10' />
                     </div>
                     <button
-                        className="col-span-2 group/btn relative block h-12 w-1/3 mx-auto rounded-md bg-gradient-to-br from-black to-neutral-600 font-medium text-white shadow-[0px_1px_0px_0px_#ffffff40_inset,0px_-1px_0px_0px_#ffffff40_inset] dark:bg-zinc-800 dark:from-zinc-900 dark:to-zinc-900 dark:shadow-[0px_1px_0px_0px_#27272a_inset,0px_-1px_0px_0px_#27272a_inset]"
+                        className="col-span-2 group/btn relative block h-12 max-lg:h-10 w-1/3 mx-auto rounded-md bg-gradient-to-br from-black to-neutral-600 font-medium text-white shadow-[0px_1px_0px_0px_#ffffff40_inset,0px_-1px_0px_0px_#ffffff40_inset] dark:bg-zinc-800 dark:from-zinc-900 dark:to-zinc-900 dark:shadow-[0px_1px_0px_0px_#27272a_inset,0px_-1px_0px_0px_#27272a_inset]"
                         type="submit"
                     >
                         {t("send_message")}
